@@ -1,0 +1,100 @@
+[2017-10-17 19:52:38,158][main]com.ods.service.UnPackService[53][INFO ]: 服务初始化完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-17 19:52:38,162][main]com.ods.service.UnPackService[53][INFO ]: 服务初始化完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-17 19:52:38,166][main]com.ods.service.UnPackService[53][INFO ]: 服务初始化完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-17 19:52:38,169][main]com.ods.service.UnPackService[53][INFO ]: 服务初始化完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-17 19:52:38,182][main]com.ods.service.UnPackService[53][INFO ]: 服务初始化完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-17 19:52:44,628][UnPackService-0]com.ods.service.UnPackService[160][INFO ]: 201710171952440000000001 解包开始,待解析报文:<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:s="http://esb.dcitsbiz.com/services/S030010001"> 	<soapenv:Header/>	<soapenv:Body>		<s:ReqS03001000101>			<s:ReqSysHead>				<s:SvcId>S030010001</s:SvcId>				<s:SvcScn>01</s:SvcScn>				<s:MAC>8888888888888888888</s:MAC> 				<s:SvcSplrTxnCd>test</s:SvcSplrTxnCd>				<s:CnsmrSysId>TESTTEST</s:CnsmrSysId>				<s:TxnDt>2017-08-24</s:TxnDt>				<s:TxnTm>15:00</s:TxnTm>				<s:CnsmrSeqNo>99999999</s:CnsmrSeqNo>				<s:OrigCnsmrSeqNo>12423543654766576879</s:OrigCnsmrSeqNo>				<s:OrigCnsmrId>1004</s:OrigCnsmrId>			</s:ReqSysHead>			<s:ReqAppHead>				<s:TxnTlrId>12312453456</s:TxnTlrId>			</s:ReqAppHead>			<s:ReqLocalHead>			</s:ReqLocalHead>			<s:ReqBody>				<s:AcctId>1234567890</s:AcctId>				<s:StartDt>20170502</s:StartDt>				<s:EndDt>20170805</s:EndDt>				<s:PageSize>60</s:PageSize>			</s:ReqBody>		</s:ReqS03001000101>	</soapenv:Body></soapenv:Envelope>
+[2017-10-17 19:52:44,629][UnPackService-0]com.ods.service.UnPackService[178][INFO ]: 开始解析 ReqSysHead, 包含字段:SvcId,SvcScn,SvcSpltTxnCd,SvcCstTxnCd,MAC,CnsmrSysId,TxnDt,TxnTm,AcgDt,CnsmrSeqNo,TxnChnlTp,ChnlNo,TxnTmlId,CnsmrsvrId,OrigCnsmrSeqNo,OrigCnsmrId,OrigtmlId,OrigcnsmrsveId,UsrLng,Fileflg,
+[2017-10-17 19:52:44,826][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,831][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.SvcId 为 [S030010001]
+[2017-10-17 19:52:44,831][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.SvcId
+[2017-10-17 19:52:44,834][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,835][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.SvcScn 为 [01]
+[2017-10-17 19:52:44,835][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.SvcScn
+[2017-10-17 19:52:44,837][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.SvcSpltTxnCd为 NULL 
+[2017-10-17 19:52:44,838][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.SvcSpltTxnCd
+[2017-10-17 19:52:44,844][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.SvcCstTxnCd为 NULL 
+[2017-10-17 19:52:44,844][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.SvcCstTxnCd
+[2017-10-17 19:52:44,845][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,845][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.MAC 为 [8888888888888888888]
+[2017-10-17 19:52:44,846][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.MAC
+[2017-10-17 19:52:44,846][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,848][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.CnsmrSysId 为 [TESTTEST]
+[2017-10-17 19:52:44,850][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.CnsmrSysId
+[2017-10-17 19:52:44,851][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,851][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.TxnDt 为 [2017-08-24]
+[2017-10-17 19:52:44,852][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.TxnDt
+[2017-10-17 19:52:44,852][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,852][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.TxnTm 为 [15:00]
+[2017-10-17 19:52:44,853][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.TxnTm
+[2017-10-17 19:52:44,853][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.AcgDt为 NULL 
+[2017-10-17 19:52:44,854][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.AcgDt
+[2017-10-17 19:52:44,854][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,854][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.CnsmrSeqNo 为 [99999999]
+[2017-10-17 19:52:44,855][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.CnsmrSeqNo
+[2017-10-17 19:52:44,855][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.TxnChnlTp为 NULL 
+[2017-10-17 19:52:44,855][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.TxnChnlTp
+[2017-10-17 19:52:44,856][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.ChnlNo为 NULL 
+[2017-10-17 19:52:44,856][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.ChnlNo
+[2017-10-17 19:52:44,857][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.TxnTmlId为 NULL 
+[2017-10-17 19:52:44,857][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.TxnTmlId
+[2017-10-17 19:52:44,858][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.CnsmrsvrId为 NULL 
+[2017-10-17 19:52:44,858][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.CnsmrsvrId
+[2017-10-17 19:52:44,859][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,859][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.OrigCnsmrSeqNo 为 [12423543654766576879]
+[2017-10-17 19:52:44,860][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.OrigCnsmrSeqNo
+[2017-10-17 19:52:44,862][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,862][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.OrigCnsmrId 为 [1004]
+[2017-10-17 19:52:44,863][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.OrigCnsmrId
+[2017-10-17 19:52:44,863][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.OrigtmlId为 NULL 
+[2017-10-17 19:52:44,864][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.OrigtmlId
+[2017-10-17 19:52:44,864][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.OrigcnsmrsveId为 NULL 
+[2017-10-17 19:52:44,866][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.OrigcnsmrsveId
+[2017-10-17 19:52:44,867][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.UsrLng为 NULL 
+[2017-10-17 19:52:44,868][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.UsrLng
+[2017-10-17 19:52:44,868][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqSysHead.Fileflg为 NULL 
+[2017-10-17 19:52:44,868][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqSysHead.Fileflg
+[2017-10-17 19:52:44,872][UnPackService-0]com.ods.service.UnPackService[178][INFO ]: 开始解析 ReqAppHead, 包含字段:TxnTlrId,OrgId,TlrPwsd,TlrLvl,TlrTp,aprvFlg,AprvTlrInf,AprvTlrId,AprvOrgId,AprvTlrLvl,AprvTlrTp,Ahrflg,AhrTlrInf,AhrTlrId,AhrOrgId,AhrtlrPswd,AhrTlrLvl,AhrTlrTp,Scndflg,
+[2017-10-17 19:52:44,872][UnPackService-0]com.ods.service.UnPackService[204][DEBUG]: YYYYYYYYYYYYYYYYYYYYYY
+[2017-10-17 19:52:44,873][UnPackService-0]com.ods.service.UnPackService[206][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.TxnTlrId 为 [12312453456]
+[2017-10-17 19:52:44,873][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.TxnTlrId
+[2017-10-17 19:52:44,874][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.OrgId为 NULL 
+[2017-10-17 19:52:44,874][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.OrgId
+[2017-10-17 19:52:44,875][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.TlrPwsd为 NULL 
+[2017-10-17 19:52:44,876][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.TlrPwsd
+[2017-10-17 19:52:44,876][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.TlrLvl为 NULL 
+[2017-10-17 19:52:44,877][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.TlrLvl
+[2017-10-17 19:52:44,877][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.TlrTp为 NULL 
+[2017-10-17 19:52:44,877][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.TlrTp
+[2017-10-17 19:52:44,878][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.aprvFlg为 NULL 
+[2017-10-17 19:52:44,879][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.aprvFlg
+[2017-10-17 19:52:44,879][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AprvTlrInf为 NULL 
+[2017-10-17 19:52:44,879][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AprvTlrInf
+[2017-10-17 19:52:44,880][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AprvTlrId为 NULL 
+[2017-10-17 19:52:44,881][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AprvTlrId
+[2017-10-17 19:52:44,881][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AprvOrgId为 NULL 
+[2017-10-17 19:52:44,881][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AprvOrgId
+[2017-10-17 19:52:44,882][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AprvTlrLvl为 NULL 
+[2017-10-17 19:52:44,882][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AprvTlrLvl
+[2017-10-17 19:52:44,883][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AprvTlrTp为 NULL 
+[2017-10-17 19:52:44,883][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AprvTlrTp
+[2017-10-17 19:52:44,884][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.Ahrflg为 NULL 
+[2017-10-17 19:52:44,885][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.Ahrflg
+[2017-10-17 19:52:44,886][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrTlrInf为 NULL 
+[2017-10-17 19:52:44,886][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrTlrInf
+[2017-10-17 19:52:44,887][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrTlrId为 NULL 
+[2017-10-17 19:52:44,887][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrTlrId
+[2017-10-17 19:52:44,887][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrOrgId为 NULL 
+[2017-10-17 19:52:44,888][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrOrgId
+[2017-10-17 19:52:44,891][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrtlrPswd为 NULL 
+[2017-10-17 19:52:44,892][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrtlrPswd
+[2017-10-17 19:52:44,893][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrTlrLvl为 NULL 
+[2017-10-17 19:52:44,893][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrTlrLvl
+[2017-10-17 19:52:44,894][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.AhrTlrTp为 NULL 
+[2017-10-17 19:52:44,894][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.AhrTlrTp
+[2017-10-17 19:52:44,895][UnPackService-0]com.ods.service.UnPackService[210][INFO ]: 流水号 201710171952440000000001 中解析出 ReqAppHead.Scndflg为 NULL 
+[2017-10-17 19:52:44,896][UnPackService-0]com.ods.service.UnPackService[222][DEBUG]: 获取完成ReqAppHead.Scndflg
+[2017-10-17 19:52:44,897][UnPackService-0]com.ods.service.UnPackService[173][WARN ]: ReqLocalHead节点对应字段为空或未配置[],跳过对ReqLocalHead的解析
+[2017-10-17 19:52:44,912][UnPackService-0]com.ods.service.UnPackService[173][WARN ]: ReqBody节点对应字段为空或未配置[],跳过对ReqBody的解析
+[2017-10-17 19:52:44,914][UnPackService-0]com.ods.service.UnPackService[238][INFO ]: 201710171952440000000001 交易代号为: test
+[2017-10-17 19:52:44,916][UnPackService-0]com.ods.service.UnPackService[263][INFO ]: 201710171952440000000001解包完成

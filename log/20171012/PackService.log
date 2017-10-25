@@ -1,0 +1,273 @@
+[2017-10-12 08:54:18,001][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 08:54:18,003][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 08:54:18,004][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 08:54:18,007][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 08:54:18,012][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:21:02,537][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:21:02,538][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:21:02,541][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:21:02,545][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:21:02,548][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:10,072][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:10,075][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:10,105][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:10,106][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:10,108][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:46,453][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:46,455][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:46,459][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:46,462][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:22:46,464][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:24:58,770][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:24:58,774][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:24:58,776][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:24:58,777][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:24:58,779][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:27:12,826][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:27:12,828][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:27:12,832][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:27:12,839][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:27:12,844][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:53:55,441][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:53:55,442][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:53:55,444][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:53:55,445][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:53:55,447][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:48,375][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:48,377][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:48,379][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:48,380][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:48,382][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:57,673][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:57,674][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:57,675][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:57,676][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:54:57,677][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:55:07,631][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:55:07,632][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:55:07,633][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:55:07,634][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 10:55:07,635][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:02:39,468][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:02:39,469][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:02:39,470][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:02:39,471][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:02:39,472][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:03:51,330][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:03:51,332][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:03:51,334][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:03:51,336][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:03:51,339][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:05:49,565][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:05:49,567][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:05:49,569][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:05:49,570][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:05:49,572][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:06:39,879][EsbPackService-4]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121105570000000001 状态为false, 交易不再处理
+[2017-10-12 11:08:57,628][EsbPackService-4]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121106390000000002 状态为false, 交易不再处理
+[2017-10-12 11:09:06,653][EsbPackService-4]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121107040000000003 状态为false, 交易不再处理
+[2017-10-12 11:09:53,145][EsbPackService-1]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121107500000000004 状态为false, 交易不再处理
+[2017-10-12 11:10:21,936][EsbPackService-0]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121108180000000005 状态为false, 交易不再处理
+[2017-10-12 11:10:47,560][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:10:47,562][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:10:47,565][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:10:47,568][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:10:47,570][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:11:17,451][EsbPackService-1]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121111150000000001 状态为false, 交易不再处理
+[2017-10-12 11:11:49,578][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:11:49,580][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:11:49,582][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:11:49,584][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:11:49,585][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:47,137][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:47,138][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:47,139][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:47,140][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:47,141][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:25:56,726][EsbPackService-0]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121125550000000001 组包出错:java.lang.NullPointerException
+[2017-10-12 11:28:45,594][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:28:45,595][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:28:45,596][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:28:45,598][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:28:45,599][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:29:12,344][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:29:12,345][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:29:12,345][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:29:12,346][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:29:12,348][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:36,137][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:36,138][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:36,139][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:36,140][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:36,141][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:40,762][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:40,763][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:40,764][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:40,765][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:40,766][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,012][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,014][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,015][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,017][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,018][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,100][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,101][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,103][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,104][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:43,105][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,003][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,004][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,006][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,009][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,011][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,155][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,158][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,160][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,162][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,179][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,193][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,195][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,196][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,198][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:32:44,199][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:35:51,939][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:35:51,940][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:35:51,944][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:35:51,948][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:35:51,949][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:02,052][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:02,053][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:02,056][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:02,059][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:02,061][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:34,543][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:34,544][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:34,546][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:34,552][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:34,556][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:40,284][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:40,285][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:40,288][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:40,291][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:40,293][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:50,324][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:50,326][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:50,328][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:50,330][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:36:50,334][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:28,720][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:28,721][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:28,723][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:28,724][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:28,726][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:32,637][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:32,638][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:32,639][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:32,640][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:32,641][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:38:41,164][EsbPackService-3]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121138400000000001 组包出错:java.lang.NullPointerException
+[2017-10-12 11:42:59,754][EsbPackService-1]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121140590000000002 状态为false, 交易不再处理
+[2017-10-12 11:43:21,534][EsbPackService-2]com.ods.service.EsbPackService[86][INFO ]: 流水号201710121141210000000003 状态为false, 交易不再处理
+[2017-10-12 11:45:44,384][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:45:44,387][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:45:44,389][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:45:44,395][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:45:44,398][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:45:51,381][EsbPackService-4]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121145500000000001 组包出错:java.lang.NullPointerException
+[2017-10-12 11:46:20,065][EsbPackService-4]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121146190000000002 组包出错:java.lang.NullPointerException
+[2017-10-12 11:49:00,147][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:49:00,148][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:49:00,150][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:49:00,153][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:49:00,155][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:49:07,738][EsbPackService-2]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121149060000000001 组包出错:java.lang.NullPointerException
+[2017-10-12 11:50:31,765][EsbPackService-4]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121150310000000002 组包出错:java.lang.NullPointerException
+[2017-10-12 11:53:09,686][EsbPackService-3]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121153090000000003 组包出错:java.lang.NullPointerException
+[2017-10-12 11:56:27,352][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:56:27,354][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:56:27,355][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:56:27,357][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:56:27,360][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 11:56:36,646][EsbPackService-2]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121156290000000001 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:352)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:163)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:350)
+	... 2 more
+[2017-10-12 12:00:10,585][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:10,587][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:10,588][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:10,589][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:10,591][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:15,855][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:15,857][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:15,859][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:15,860][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:15,862][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 12:00:21,075][EsbPackService-4]com.ods.service.EsbPackService[158][DEBUG]: 201710121200200000000001组织 SysHhead 完成
+[2017-10-12 12:00:21,076][EsbPackService-4]com.ods.service.EsbPackService[162][DEBUG]: 201710121200200000000001组织 AppHead 完成
+[2017-10-12 12:00:21,076][EsbPackService-4]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121200200000000001 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:355)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:165)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:353)
+	... 2 more
+[2017-10-12 14:58:49,281][EsbPackService-4]com.ods.service.EsbPackService[158][DEBUG]: 201710121458490000000002组织 SysHhead 完成
+[2017-10-12 14:58:49,281][EsbPackService-4]com.ods.service.EsbPackService[162][DEBUG]: 201710121458490000000002组织 AppHead 完成
+[2017-10-12 14:58:49,282][EsbPackService-4]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121458490000000002 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:355)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:165)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:353)
+	... 2 more
+[2017-10-12 15:04:34,847][EsbPackService-1]com.ods.service.EsbPackService[158][DEBUG]: 201710121504340000000003组织 SysHhead 完成
+[2017-10-12 15:04:34,847][EsbPackService-1]com.ods.service.EsbPackService[162][DEBUG]: 201710121504340000000003组织 AppHead 完成
+[2017-10-12 15:04:34,847][EsbPackService-1]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121504340000000003 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:355)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:165)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:353)
+	... 2 more
+[2017-10-12 15:05:29,839][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:05:29,840][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:05:29,842][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:05:29,844][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:05:29,849][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:06:32,556][EsbPackService-0]com.ods.service.EsbPackService[158][DEBUG]: 201710121506050000000001组织 SysHhead 完成
+[2017-10-12 15:06:32,560][EsbPackService-0]com.ods.service.EsbPackService[162][DEBUG]: 201710121506050000000001组织 AppHead 完成
+[2017-10-12 15:06:39,658][EsbPackService-0]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121506050000000001 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:355)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:165)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:353)
+	... 2 more
+[2017-10-12 15:12:07,534][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:07,536][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:07,537][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:07,538][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:07,539][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:40,007][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:40,009][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:40,012][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:40,014][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:12:40,017][main]com.ods.service.EsbPackService[56][INFO ]: 服务初始化完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-12 15:13:08,692][EsbPackService-1]com.ods.service.EsbPackService[158][DEBUG]: 201710121512560000000001组织 SysHhead 完成,共3步,当前完成第1步
+[2017-10-12 15:13:08,694][EsbPackService-1]com.ods.service.EsbPackService[162][DEBUG]: 201710121512560000000001组织 AppHead 完成,共3步,当前完成第2步
+[2017-10-12 15:27:19,322][EsbPackService-1]com.ods.service.EsbPackService[93][ERROR]: 流水号201710121512560000000001 组包出错:java.lang.NullPointerException
+com.ods.exception.TxnException: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:355)
+	at com.ods.service.EsbPackService.packEsbMsg(EsbPackService.java:165)
+	at com.ods.service.EsbPackService.run(EsbPackService.java:91)
+Caused by: java.lang.NullPointerException
+	at com.ods.service.EsbPackService.packRspBody(EsbPackService.java:353)
+	... 2 more

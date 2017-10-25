@@ -1,0 +1,18 @@
+[2017-10-25 10:10:44,728][main]com.ods.log.OdsLog[118][INFO ]: QueueManager 不存在,创建新实例
+[2017-10-25 10:10:44,735][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:QueueManager实例创建完成
+[2017-10-25 10:10:44,744][main]com.ods.log.OdsLog[118][INFO ]: DbPool 不存在,创建新实例
+[2017-10-25 10:10:44,745][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbPool实例创建完成
+[2017-10-25 10:10:44,936][main]com.ods.log.OdsLog[118][INFO ]: UnPackService 不存在,创建新实例
+[2017-10-25 10:10:44,941][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:UnPackService实例创建完成
+[2017-10-25 10:10:44,963][main]com.ods.log.OdsLog[118][INFO ]: TxnService 不存在,创建新实例
+[2017-10-25 10:10:44,965][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:TxnService实例创建完成
+[2017-10-25 10:10:45,079][main]com.ods.log.OdsLog[118][INFO ]: PackService 不存在,创建新实例
+[2017-10-25 10:10:45,080][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:PackService实例创建完成
+[2017-10-25 10:10:45,105][main]com.ods.log.OdsLog[118][INFO ]: SendService 不存在,创建新实例
+[2017-10-25 10:10:45,106][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:SendService实例创建完成
+[2017-10-25 10:10:45,155][main]com.ods.log.OdsLog[118][INFO ]: Handler 不存在,创建新实例
+[2017-10-25 10:10:45,159][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:Handler实例创建完成
+[2017-10-25 10:10:51,326][TxnService-2]com.ods.log.OdsLog[118][INFO ]: AccnoQuary 不存在,创建新实例
+[2017-10-25 10:10:51,327][TxnService-2]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:AccnoQuary实例创建完成
+[2017-10-25 10:10:51,342][TxnService-2]com.ods.log.OdsLog[118][INFO ]: DbQuery 不存在,创建新实例
+[2017-10-25 10:10:51,343][TxnService-2]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbQuery实例创建完成

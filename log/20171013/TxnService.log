@@ -1,0 +1,19 @@
+[2017-10-13 16:11:16,215][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-13 16:11:16,230][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-13 16:11:16,232][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-13 16:11:16,233][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-13 16:11:16,234][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-13 16:46:27,726][TxnService-3]com.ods.service.TxnService[88][INFO ]: test流水号201710131646270000000001处理开始
+[2017-10-13 16:46:27,727][TxnService-3]com.ods.service.TxnService[149][INFO ]: test流水号201710131646270000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-13 16:46:27,728][TxnService-3]com.ods.service.TxnService[162][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-13 16:46:27,786][TxnService-3]com.ods.service.TxnService[170][INFO ]: test流水号201710131646270000000001实例化 交易对应的处理类
+[2017-10-13 16:46:31,942][TxnService-3]com.ods.service.TxnService[180][INFO ]: test流水号201710131646270000000001数据库操作交易处理完成
+[2017-10-13 16:46:31,973][TxnService-3]com.ods.service.TxnService[207][INFO ]: test流水号201710131646270000000001生成key值 完成
+[2017-10-13 16:46:31,973][TxnService-3]com.ods.service.TxnService[210][INFO ]: test流水号201710131646270000000001处理完成
+[2017-10-13 16:47:34,504][TxnService-0]com.ods.service.TxnService[88][INFO ]: test流水号201710131647340000000002处理开始
+[2017-10-13 16:47:34,505][TxnService-0]com.ods.service.TxnService[149][INFO ]: test流水号201710131647340000000002获取RspBody中的入参加入到inParm列表完成
+[2017-10-13 16:47:34,505][TxnService-0]com.ods.service.TxnService[162][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-13 16:47:34,506][TxnService-0]com.ods.service.TxnService[170][INFO ]: test流水号201710131647340000000002实例化 交易对应的处理类
+[2017-10-13 16:47:34,661][TxnService-0]com.ods.service.TxnService[180][INFO ]: test流水号201710131647340000000002数据库操作交易处理完成
+[2017-10-13 16:47:34,662][TxnService-0]com.ods.service.TxnService[207][INFO ]: test流水号201710131647340000000002生成key值 完成
+[2017-10-13 16:47:34,662][TxnService-0]com.ods.service.TxnService[210][INFO ]: test流水号201710131647340000000002处理完成

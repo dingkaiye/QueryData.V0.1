@@ -1,0 +1,565 @@
+[2017-10-12 08:54:17,903][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 08:54:17,903][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 08:54:17,903][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 08:54:17,905][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 08:54:17,905][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 08:54:17,905][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 08:54:17,906][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 08:59:16,128][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710120859160000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 08:59:16,174][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710120859160000000001
+[2017-10-12 09:07:01,941][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710120907010000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 09:07:01,949][UnPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710120907010000000002
+[2017-10-12 09:07:08,415][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710120859160000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 09:07:08,453][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710120859160000000001
+[2017-10-12 09:07:08,453][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710120859160000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 09:07:08,503][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710120859160000000001
+[2017-10-12 09:07:08,854][UnPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710120907010000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 09:07:08,868][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710120907010000000002
+[2017-10-12 09:07:08,873][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710120907010000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 09:07:08,873][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710120907010000000002
+[2017-10-12 10:16:49,165][pool-1-thread-3]com.ods.manager.QueueManager[91][INFO ]: 201710121016490000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:16:49,177][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121016490000000003
+[2017-10-12 10:16:49,202][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121016490000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:16:49,227][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121016490000000003
+[2017-10-12 10:16:49,227][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121016490000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:16:49,278][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121016490000000003
+[2017-10-12 10:21:02,452][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:21:02,452][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:21:02,453][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:21:02,453][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:21:02,453][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:21:02,454][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:21:02,454][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:21:45,955][pool-1-thread-4]com.ods.manager.QueueManager[91][INFO ]: 201710121021450000000004加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:21:45,986][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121021450000000004
+[2017-10-12 10:21:46,019][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121021450000000004加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:21:46,036][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121021450000000004
+[2017-10-12 10:21:46,037][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121021450000000004加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:21:46,086][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121021450000000004
+[2017-10-12 10:22:10,022][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:22:10,022][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:22:10,023][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:22:10,023][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:22:10,023][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:22:10,024][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:22:10,024][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:22:46,400][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:22:46,400][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:22:46,400][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:22:46,400][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:22:46,401][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:22:46,401][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:22:46,401][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:22:54,326][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121022540000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:22:54,340][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121022540000000001
+[2017-10-12 10:22:54,570][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121022540000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:22:54,595][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121022540000000001
+[2017-10-12 10:22:54,596][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121022540000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:22:54,645][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121022540000000001
+[2017-10-12 10:24:02,906][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121024020000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:24:02,907][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121024020000000002
+[2017-10-12 10:24:58,694][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:24:58,694][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:24:58,694][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:24:58,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:24:58,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:24:58,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:24:58,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:25:05,313][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121025050000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:25:05,362][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121025050000000001
+[2017-10-12 10:25:30,123][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121025050000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:25:30,130][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121025050000000001
+[2017-10-12 10:25:30,138][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121025050000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:25:30,180][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121025050000000001
+[2017-10-12 10:27:12,727][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:27:12,727][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:27:12,728][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:27:12,728][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:27:12,728][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:27:12,729][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:27:12,729][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:27:19,741][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121027190000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:27:19,780][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121027190000000001
+[2017-10-12 10:46:10,968][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:46:10,968][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:46:10,968][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:46:10,968][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:46:10,969][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:46:10,969][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:46:10,969][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:53:55,372][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:53:55,372][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:53:55,372][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:53:55,372][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:53:55,373][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:53:55,373][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:53:55,373][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:54:00,837][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121054000000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:54:00,841][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121054000000000001
+[2017-10-12 10:54:30,572][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121054000000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:54:30,598][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121054000000000001
+[2017-10-12 10:54:30,599][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121054000000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:54:30,649][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121054000000000001
+[2017-10-12 10:54:48,306][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:54:48,306][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:54:48,307][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:54:48,307][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:54:48,307][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:54:48,308][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:54:48,308][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:54:57,640][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:54:57,640][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:54:57,641][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:54:57,641][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:54:57,641][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:54:57,642][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:54:57,642][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:55:07,604][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 10:55:07,604][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 10:55:07,604][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 10:55:07,604][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 10:55:07,604][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 10:55:07,605][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 10:55:07,605][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 10:55:10,429][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121055100000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 10:55:10,445][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121055100000000001
+[2017-10-12 10:55:10,574][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121055100000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 10:55:10,613][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121055100000000001
+[2017-10-12 10:55:10,613][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121055100000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 10:55:10,624][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121055100000000001
+[2017-10-12 11:02:28,997][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121102280000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:02:29,027][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121102280000000002
+[2017-10-12 11:02:29,060][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121102280000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:02:29,077][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121102280000000002
+[2017-10-12 11:02:29,077][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121102280000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:02:29,080][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121102280000000002
+[2017-10-12 11:02:39,441][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:02:39,441][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:02:39,441][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:02:39,441][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:02:39,442][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:02:39,442][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:02:39,442][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:02:42,960][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121102420000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:02:42,998][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121102420000000001
+[2017-10-12 11:02:43,194][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121102420000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:02:43,213][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121102420000000001
+[2017-10-12 11:02:43,213][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121102420000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:02:43,234][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121102420000000001
+[2017-10-12 11:02:46,934][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121102460000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:02:46,959][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121102460000000002
+[2017-10-12 11:02:46,983][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121102460000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:02:47,009][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121102460000000002
+[2017-10-12 11:02:47,009][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121102460000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:02:47,060][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121102460000000002
+[2017-10-12 11:03:51,247][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:03:51,247][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:03:51,248][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:03:51,248][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:03:51,248][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:03:51,248][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:03:51,249][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:03:54,969][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121103540000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:03:54,998][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121103540000000001
+[2017-10-12 11:05:49,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:05:49,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:05:49,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:05:49,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:05:49,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:05:49,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:05:49,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:05:57,548][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121105570000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:05:57,566][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121105570000000001
+[2017-10-12 11:06:38,199][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121105570000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:06:38,215][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121105570000000001
+[2017-10-12 11:06:39,863][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121105570000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:06:39,867][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121105570000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:06:39,868][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121105570000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:06:39,879][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121105570000000001
+[2017-10-12 11:06:39,879][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121105570000000001
+[2017-10-12 11:06:39,879][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121105570000000001
+[2017-10-12 11:06:39,887][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121106390000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:06:39,930][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121106390000000002
+[2017-10-12 11:06:57,583][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121106390000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:06:57,584][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121106390000000002
+[2017-10-12 11:07:04,820][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121107040000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:07:04,855][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121107040000000003
+[2017-10-12 11:07:06,604][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121107040000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:07:06,619][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121107040000000003
+[2017-10-12 11:07:50,828][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121107500000000004加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:07:50,872][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121107500000000004
+[2017-10-12 11:07:53,125][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121107500000000004加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:07:53,127][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121107500000000004
+[2017-10-12 11:08:18,433][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121108180000000005加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:08:18,437][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121108180000000005
+[2017-10-12 11:08:21,844][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121108180000000005加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:08:21,884][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121108180000000005
+[2017-10-12 11:08:57,604][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121106390000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:08:57,605][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121106390000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:08:57,605][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121106390000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:08:57,627][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121106390000000002
+[2017-10-12 11:08:57,627][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121106390000000002
+[2017-10-12 11:08:57,627][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121106390000000002
+[2017-10-12 11:09:06,635][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121107040000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:09:06,637][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121107040000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:09:06,637][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121107040000000003加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:09:06,653][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121107040000000003
+[2017-10-12 11:09:06,653][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121107040000000003
+[2017-10-12 11:09:06,653][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121107040000000003
+[2017-10-12 11:09:06,664][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121109060000000006加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:09:06,704][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121109060000000006
+[2017-10-12 11:09:06,722][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121109060000000006加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:09:06,725][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121109060000000006
+[2017-10-12 11:09:53,140][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121107500000000004加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:09:53,140][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121107500000000004加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:09:53,140][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121107500000000004加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:09:53,145][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121107500000000004
+[2017-10-12 11:09:53,145][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121107500000000004
+[2017-10-12 11:09:53,145][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121107500000000004
+[2017-10-12 11:10:21,896][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121108180000000005加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:10:21,897][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121108180000000005加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:10:21,897][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121108180000000005加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:10:21,936][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121108180000000005
+[2017-10-12 11:10:21,936][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121108180000000005
+[2017-10-12 11:10:21,936][EsbPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121108180000000005
+[2017-10-12 11:10:47,509][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:10:47,509][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:10:47,510][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:10:47,510][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:10:47,510][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:10:47,510][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:10:47,510][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:11:15,757][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121111150000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:11:15,778][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121111150000000001
+[2017-10-12 11:11:15,960][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121111150000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:11:15,979][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121111150000000001
+[2017-10-12 11:11:17,436][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121111150000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:11:17,438][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121111150000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:11:17,438][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121111150000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:11:17,451][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121111150000000001
+[2017-10-12 11:11:17,451][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121111150000000001
+[2017-10-12 11:11:17,451][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121111150000000001
+[2017-10-12 11:11:17,459][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121111170000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:11:17,501][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121111170000000002
+[2017-10-12 11:11:17,541][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121111170000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:11:17,541][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121111170000000002
+[2017-10-12 11:11:23,641][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121111230000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:11:23,643][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121111230000000003
+[2017-10-12 11:11:23,656][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121111230000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:11:23,668][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121111230000000003
+[2017-10-12 11:11:49,504][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:11:49,505][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:11:49,505][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:11:49,506][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:11:49,506][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:11:49,506][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:11:49,506][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:25:47,108][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:25:47,109][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:25:47,109][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:25:47,109][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:25:47,109][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:25:47,110][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:25:47,110][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:25:55,300][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121125550000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:25:55,334][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121125550000000001
+[2017-10-12 11:25:55,528][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121125550000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:25:55,536][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121125550000000001
+[2017-10-12 11:25:56,706][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121125550000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:25:56,725][EsbPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121125550000000001
+[2017-10-12 11:25:56,726][EsbPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121125550000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:25:56,776][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121125550000000001
+[2017-10-12 11:28:45,567][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:28:45,568][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:28:45,568][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:28:45,568][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:28:45,568][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:28:45,569][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:28:45,569][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:29:12,318][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:29:12,318][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:29:12,318][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:29:12,319][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:29:12,319][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:29:12,319][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:29:12,319][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:36,106][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:36,106][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:36,106][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:36,107][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:36,107][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:36,108][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:36,108][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:40,733][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:40,734][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:40,734][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:40,734][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:40,735][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:40,735][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:40,736][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:42,962][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:42,969][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:42,971][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:42,971][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:42,971][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:42,972][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:42,972][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:43,027][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:43,028][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:43,029][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:43,029][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:43,029][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:43,030][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:43,031][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:43,840][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:43,841][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:43,841][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:43,841][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:43,896][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:43,897][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:43,913][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:44,079][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:44,079][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:44,080][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:44,080][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:44,081][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:44,081][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:44,082][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:32:44,120][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:32:44,121][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:32:44,121][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:32:44,122][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:32:44,123][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:32:44,124][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:32:44,124][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:35:51,891][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:35:51,891][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:35:51,892][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:35:51,892][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:35:51,892][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:35:51,893][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:35:51,893][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:36:02,002][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:36:02,003][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:36:02,003][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:36:02,003][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:36:02,003][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:36:02,003][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:36:02,004][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:36:34,492][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:36:34,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:36:34,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:36:34,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:36:34,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:36:34,493][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:36:34,494][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:36:40,238][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:36:40,238][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:36:40,239][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:36:40,239][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:36:40,239][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:36:40,240][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:36:40,240][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:36:50,285][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:36:50,285][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:36:50,285][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:36:50,285][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:36:50,285][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:36:50,286][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:36:50,286][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:38:28,607][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:38:28,607][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:38:28,608][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:38:28,610][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:38:28,610][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:38:28,611][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:38:28,611][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:38:32,525][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:38:32,525][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:38:32,525][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:38:32,528][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:38:32,528][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:38:32,528][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:38:32,529][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:38:40,020][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121138400000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:38:40,021][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121138400000000001
+[2017-10-12 11:38:40,187][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121138400000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:38:40,191][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121138400000000001
+[2017-10-12 11:38:41,143][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121138400000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:38:41,163][EsbPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121138400000000001
+[2017-10-12 11:38:41,164][EsbPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121138400000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:38:41,213][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121138400000000001
+[2017-10-12 11:40:59,616][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121140590000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:40:59,648][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121140590000000002
+[2017-10-12 11:40:59,675][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121140590000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:40:59,698][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121140590000000002
+[2017-10-12 11:41:21,438][pool-1-thread-3]com.ods.manager.QueueManager[91][INFO ]: 201710121141210000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:41:21,448][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121141210000000003
+[2017-10-12 11:41:21,463][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121141210000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:41:21,483][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121141210000000003
+[2017-10-12 11:42:59,736][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121140590000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:42:59,737][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121140590000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:42:59,737][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121140590000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:42:59,754][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121140590000000002
+[2017-10-12 11:42:59,763][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121140590000000002
+[2017-10-12 11:42:59,763][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121140590000000002
+[2017-10-12 11:43:21,488][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121141210000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:43:21,488][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121141210000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:43:21,488][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121141210000000003加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:43:21,490][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121141210000000003
+[2017-10-12 11:43:21,490][SendFailMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121141210000000003
+[2017-10-12 11:43:21,534][EsbPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121141210000000003
+[2017-10-12 11:45:17,688][pool-1-thread-4]com.ods.manager.QueueManager[91][INFO ]: 201710121145170000000004加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:45:17,721][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121145170000000004
+[2017-10-12 11:45:17,734][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121145170000000004加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:45:17,771][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121145170000000004
+[2017-10-12 11:45:44,259][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:45:44,260][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:45:44,260][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:45:44,262][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:45:44,263][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:45:44,263][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:45:44,263][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:45:50,089][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121145500000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:45:50,118][UnPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121145500000000001
+[2017-10-12 11:45:50,313][UnPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121145500000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:45:50,326][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121145500000000001
+[2017-10-12 11:45:51,359][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121145500000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:45:51,381][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121145500000000001
+[2017-10-12 11:45:51,382][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121145500000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:45:51,431][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121145500000000001
+[2017-10-12 11:46:19,966][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121146190000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:46:20,015][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121146190000000002
+[2017-10-12 11:46:20,040][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121146190000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:46:20,050][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121146190000000002
+[2017-10-12 11:46:20,064][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121146190000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:46:20,064][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121146190000000002
+[2017-10-12 11:46:20,065][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121146190000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:46:20,065][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121146190000000002
+[2017-10-12 11:48:59,985][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:48:59,986][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:48:59,986][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:48:59,988][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:48:59,989][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:48:59,989][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:48:59,989][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:49:06,386][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121149060000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:49:06,402][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121149060000000001
+[2017-10-12 11:49:06,670][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121149060000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:49:06,675][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121149060000000001
+[2017-10-12 11:49:07,713][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121149060000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:49:07,737][EsbPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121149060000000001
+[2017-10-12 11:49:07,738][EsbPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121149060000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:49:07,787][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121149060000000001
+[2017-10-12 11:50:31,631][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121150310000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:50:31,645][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121150310000000002
+[2017-10-12 11:50:31,668][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121150310000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:50:31,684][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121150310000000002
+[2017-10-12 11:50:31,756][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121150310000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:50:31,762][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121150310000000002
+[2017-10-12 11:50:31,766][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121150310000000002
+[2017-10-12 11:50:31,766][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121150310000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:53:09,490][pool-1-thread-3]com.ods.manager.QueueManager[91][INFO ]: 201710121153090000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:53:09,536][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121153090000000003
+[2017-10-12 11:53:09,579][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121153090000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:53:09,586][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121153090000000003
+[2017-10-12 11:53:09,639][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121153090000000003加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:53:09,686][EsbPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121153090000000003
+[2017-10-12 11:53:09,686][EsbPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121153090000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:53:09,687][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121153090000000003
+[2017-10-12 11:55:34,442][pool-1-thread-4]com.ods.manager.QueueManager[91][INFO ]: 201710121155340000000004加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:55:34,446][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121155340000000004
+[2017-10-12 11:55:34,456][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121155340000000004加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:55:34,498][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121155340000000004
+[2017-10-12 11:55:34,575][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121155340000000004加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:55:34,599][EsbPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121155340000000004
+[2017-10-12 11:56:27,197][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 11:56:27,198][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 11:56:27,199][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 11:56:27,204][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 11:56:27,204][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 11:56:27,204][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 11:56:27,205][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 11:56:29,696][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121156290000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 11:56:29,713][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121156290000000001
+[2017-10-12 11:56:29,910][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121156290000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 11:56:29,915][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121156290000000001
+[2017-10-12 11:56:30,842][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121156290000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 11:56:30,860][EsbPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121156290000000001
+[2017-10-12 11:56:36,663][EsbPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121156290000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 11:56:36,703][SendFailMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121156290000000001
+[2017-10-12 12:00:10,475][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 12:00:10,475][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 12:00:10,475][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 12:00:10,479][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 12:00:10,479][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 12:00:10,479][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 12:00:10,479][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 12:00:15,728][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 12:00:15,728][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 12:00:15,729][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 12:00:15,732][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 12:00:15,732][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 12:00:15,732][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 12:00:15,732][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 12:00:20,048][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121200200000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 12:00:20,068][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121200200000000001
+[2017-10-12 12:00:20,222][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121200200000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 12:00:20,224][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121200200000000001
+[2017-10-12 12:00:21,074][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121200200000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 12:00:21,074][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121200200000000001
+[2017-10-12 12:00:21,079][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121200200000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 12:00:21,116][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121200200000000001
+[2017-10-12 14:58:49,081][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710121458490000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 14:58:49,082][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121458490000000002
+[2017-10-12 14:58:49,107][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121458490000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 14:58:49,117][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121458490000000002
+[2017-10-12 14:58:49,269][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121458490000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-12 14:58:49,281][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121458490000000002
+[2017-10-12 14:58:49,282][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121458490000000002加入到队列FailQueue完成,操作结果:true
+[2017-10-12 14:58:49,331][SendFailMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121458490000000002
+[2017-10-12 15:04:34,685][pool-1-thread-3]com.ods.manager.QueueManager[91][INFO ]: 201710121504340000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 15:04:34,697][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121504340000000003
+[2017-10-12 15:04:34,727][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710121504340000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 15:04:34,747][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121504340000000003
+[2017-10-12 15:04:34,823][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121504340000000003加入到队列PackQueue完成,操作结果:true
+[2017-10-12 15:04:34,847][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121504340000000003
+[2017-10-12 15:04:34,848][EsbPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121504340000000003加入到队列FailQueue完成,操作结果:true
+[2017-10-12 15:04:34,889][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121504340000000003
+[2017-10-12 15:05:29,691][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 15:05:29,692][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 15:05:29,692][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 15:05:29,694][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 15:05:29,694][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 15:05:29,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 15:05:29,695][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 15:06:05,302][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121506050000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 15:06:05,323][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121506050000000001
+[2017-10-12 15:06:05,541][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121506050000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 15:06:05,578][TxnService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121506050000000001
+[2017-10-12 15:06:06,446][TxnService-2]com.ods.manager.QueueManager[91][INFO ]: 201710121506050000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 15:06:06,479][EsbPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121506050000000001
+[2017-10-12 15:06:40,127][EsbPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710121506050000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 15:06:40,161][SendFailMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121506050000000001
+[2017-10-12 15:12:07,425][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 15:12:07,426][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 15:12:07,426][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 15:12:07,428][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 15:12:07,429][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 15:12:07,429][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 15:12:07,429][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 15:12:39,873][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-12 15:12:39,873][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-12 15:12:39,873][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-12 15:12:39,876][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-12 15:12:39,876][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-12 15:12:39,876][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-12 15:12:39,877][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-12 15:12:56,340][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710121512560000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-12 15:12:56,363][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710121512560000000001
+[2017-10-12 15:12:56,536][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121512560000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-12 15:12:56,576][TxnService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710121512560000000001
+[2017-10-12 15:12:57,489][TxnService-4]com.ods.manager.QueueManager[91][INFO ]: 201710121512560000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-12 15:12:57,536][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710121512560000000001
+[2017-10-12 15:27:19,344][EsbPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710121512560000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-12 15:27:19,351][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710121512560000000001

@@ -1,0 +1,7 @@
+[2017-10-20 10:04:56,976][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-20 10:04:56,977][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-20 10:04:56,977][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-20 10:04:56,980][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-20 10:04:56,980][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-20 10:04:56,980][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-20 10:04:56,981][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成

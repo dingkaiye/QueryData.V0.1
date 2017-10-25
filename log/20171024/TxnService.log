@@ -1,0 +1,100 @@
+[2017-10-24 19:32:44,427][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:32:44,428][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:32:44,430][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:32:44,431][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:32:44,432][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:32:50,910][TxnService-0]com.ods.service.TxnService[86][INFO ]: test流水号201710241932500000000001处理开始
+[2017-10-24 19:32:50,913][TxnService-0]com.ods.service.TxnService[140][INFO ]: test流水号201710241932500000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:32:50,915][TxnService-0]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:32:50,935][TxnService-0]com.ods.service.TxnService[161][INFO ]: test流水号201710241932500000000001实例化 交易对应的处理类
+[2017-10-24 19:32:53,534][TxnService-0]com.ods.service.TxnService[177][INFO ]: test流水号201710241932500000000001数据库操作交易处理完成
+[2017-10-24 19:32:53,538][TxnService-0]com.ods.service.TxnService[215][INFO ]: test流水号201710241932500000000001生成key值 完成
+[2017-10-24 19:32:53,538][TxnService-0]com.ods.service.TxnService[218][INFO ]: test流水号201710241932500000000001处理完成
+[2017-10-24 19:34:19,999][TxnService-4]com.ods.service.TxnService[86][INFO ]: test流水号201710241934190000000002处理开始
+[2017-10-24 19:34:19,999][TxnService-4]com.ods.service.TxnService[140][INFO ]: test流水号201710241934190000000002获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:34:20,000][TxnService-4]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:34:20,000][TxnService-4]com.ods.service.TxnService[161][INFO ]: test流水号201710241934190000000002实例化 交易对应的处理类
+[2017-10-24 19:34:25,344][TxnService-4]com.ods.service.TxnService[177][INFO ]: test流水号201710241934190000000002数据库操作交易处理完成
+[2017-10-24 19:34:44,989][TxnService-4]com.ods.service.TxnService[215][INFO ]: test流水号201710241934190000000002生成key值 完成
+[2017-10-24 19:35:00,876][TxnService-4]com.ods.service.TxnService[218][INFO ]: test流水号201710241934190000000002处理完成
+[2017-10-24 19:35:36,037][TxnService-3]com.ods.service.TxnService[86][INFO ]: test流水号201710241935350000000003处理开始
+[2017-10-24 19:35:36,038][TxnService-3]com.ods.service.TxnService[140][INFO ]: test流水号201710241935350000000003获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:35:36,038][TxnService-3]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:35:36,039][TxnService-3]com.ods.service.TxnService[161][INFO ]: test流水号201710241935350000000003实例化 交易对应的处理类
+[2017-10-24 19:35:38,642][TxnService-3]com.ods.service.TxnService[177][INFO ]: test流水号201710241935350000000003数据库操作交易处理完成
+[2017-10-24 19:35:38,644][TxnService-3]com.ods.service.TxnService[215][INFO ]: test流水号201710241935350000000003生成key值 完成
+[2017-10-24 19:35:40,057][TxnService-3]com.ods.service.TxnService[218][INFO ]: test流水号201710241935350000000003处理完成
+[2017-10-24 19:36:13,809][TxnService-0]com.ods.service.TxnService[86][INFO ]: test流水号201710241936130000000004处理开始
+[2017-10-24 19:36:13,809][TxnService-0]com.ods.service.TxnService[140][INFO ]: test流水号201710241936130000000004获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:36:13,810][TxnService-0]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:36:13,810][TxnService-0]com.ods.service.TxnService[161][INFO ]: test流水号201710241936130000000004实例化 交易对应的处理类
+[2017-10-24 19:36:16,529][TxnService-0]com.ods.service.TxnService[177][INFO ]: test流水号201710241936130000000004数据库操作交易处理完成
+[2017-10-24 19:36:16,536][TxnService-0]com.ods.service.TxnService[215][INFO ]: test流水号201710241936130000000004生成key值 完成
+[2017-10-24 19:36:17,406][TxnService-0]com.ods.service.TxnService[218][INFO ]: test流水号201710241936130000000004处理完成
+[2017-10-24 19:38:32,232][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710241938320000000005处理开始
+[2017-10-24 19:38:32,233][TxnService-1]com.ods.service.TxnService[140][INFO ]: test流水号201710241938320000000005获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:38:32,233][TxnService-1]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:38:32,233][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710241938320000000005实例化 交易对应的处理类
+[2017-10-24 19:38:36,980][TxnService-1]com.ods.service.TxnService[177][INFO ]: test流水号201710241938320000000005数据库操作交易处理完成
+[2017-10-24 19:38:36,981][TxnService-1]com.ods.service.TxnService[215][INFO ]: test流水号201710241938320000000005生成key值 完成
+[2017-10-24 19:38:39,234][TxnService-1]com.ods.service.TxnService[218][INFO ]: test流水号201710241938320000000005处理完成
+[2017-10-24 19:41:44,345][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:41:44,346][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:41:44,346][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:41:44,347][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:41:44,348][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:41:49,364][TxnService-2]com.ods.service.TxnService[86][INFO ]: test流水号201710241941490000000001处理开始
+[2017-10-24 19:41:49,367][TxnService-2]com.ods.service.TxnService[140][INFO ]: test流水号201710241941490000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:41:49,369][TxnService-2]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:41:49,377][TxnService-2]com.ods.service.TxnService[161][INFO ]: test流水号201710241941490000000001实例化 交易对应的处理类
+[2017-10-24 19:41:50,251][TxnService-2]com.ods.service.TxnService[177][INFO ]: test流水号201710241941490000000001数据库操作交易处理完成
+[2017-10-24 19:41:50,258][TxnService-2]com.ods.service.TxnService[215][INFO ]: test流水号201710241941490000000001生成key值 完成
+[2017-10-24 19:41:54,241][TxnService-2]com.ods.service.TxnService[218][INFO ]: test流水号201710241941490000000001处理完成
+[2017-10-24 19:44:24,418][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:44:24,419][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:44:24,420][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:44:24,422][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:44:24,424][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:44:31,161][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710241944300000000001处理开始
+[2017-10-24 19:44:31,163][TxnService-1]com.ods.service.TxnService[140][INFO ]: test流水号201710241944300000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:44:31,163][TxnService-1]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:44:31,168][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710241944300000000001实例化 交易对应的处理类
+[2017-10-24 19:44:32,045][TxnService-1]com.ods.service.TxnService[177][INFO ]: test流水号201710241944300000000001数据库操作交易处理完成
+[2017-10-24 19:44:32,051][TxnService-1]com.ods.service.TxnService[215][INFO ]: test流水号201710241944300000000001生成key值 完成
+[2017-10-24 19:44:32,052][TxnService-1]com.ods.service.TxnService[218][INFO ]: test流水号201710241944300000000001处理完成
+[2017-10-24 19:44:53,126][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710241944530000000002处理开始
+[2017-10-24 19:44:53,127][TxnService-1]com.ods.service.TxnService[140][INFO ]: test流水号201710241944530000000002获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:44:53,127][TxnService-1]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:44:53,127][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710241944530000000002实例化 交易对应的处理类
+[2017-10-24 19:44:53,134][TxnService-1]com.ods.service.TxnService[177][INFO ]: test流水号201710241944530000000002数据库操作交易处理完成
+[2017-10-24 19:44:53,136][TxnService-1]com.ods.service.TxnService[215][INFO ]: test流水号201710241944530000000002生成key值 完成
+[2017-10-24 19:44:53,136][TxnService-1]com.ods.service.TxnService[218][INFO ]: test流水号201710241944530000000002处理完成
+[2017-10-24 19:48:08,275][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:08,277][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:08,278][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:08,279][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:08,282][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:18,567][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:18,569][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:18,570][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:18,571][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:18,572][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:48:27,595][TxnService-4]com.ods.service.TxnService[86][INFO ]: test流水号201710241948270000000001处理开始
+[2017-10-24 19:48:27,597][TxnService-4]com.ods.service.TxnService[140][INFO ]: test流水号201710241948270000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:48:27,607][TxnService-4]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:48:27,612][TxnService-4]com.ods.service.TxnService[161][INFO ]: test流水号201710241948270000000001实例化 交易对应的处理类
+[2017-10-24 19:48:28,477][TxnService-4]com.ods.service.TxnService[177][INFO ]: test流水号201710241948270000000001数据库操作交易处理完成
+[2017-10-24 19:48:28,480][TxnService-4]com.ods.service.TxnService[215][INFO ]: test流水号201710241948270000000001生成key值 完成
+[2017-10-24 19:48:28,481][TxnService-4]com.ods.service.TxnService[218][INFO ]: test流水号201710241948270000000001处理完成
+[2017-10-24 19:49:45,133][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:49:45,135][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:49:45,136][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:49:45,137][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:49:45,139][main]com.ods.service.TxnService[50][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-24 19:49:50,517][TxnService-2]com.ods.service.TxnService[86][INFO ]: test流水号201710241949500000000001处理开始
+[2017-10-24 19:49:50,518][TxnService-2]com.ods.service.TxnService[140][INFO ]: test流水号201710241949500000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-24 19:49:50,519][TxnService-2]com.ods.service.TxnService[153][DEBUG]: 获取的交易名称是:test 交易处理类名为:com.ods.transaction.test
+[2017-10-24 19:49:50,521][TxnService-2]com.ods.service.TxnService[161][INFO ]: test流水号201710241949500000000001实例化 交易对应的处理类
+[2017-10-24 19:49:51,397][TxnService-2]com.ods.service.TxnService[177][INFO ]: test流水号201710241949500000000001数据库操作交易处理完成
+[2017-10-24 19:49:51,403][TxnService-2]com.ods.service.TxnService[215][INFO ]: test流水号201710241949500000000001生成key值 完成
+[2017-10-24 19:49:51,404][TxnService-2]com.ods.service.TxnService[218][INFO ]: test流水号201710241949500000000001处理完成

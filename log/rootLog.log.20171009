@@ -1,0 +1,1133 @@
+[2017-10-09 14:24:22,040][main]com.ods.log.OdsLog[118][INFO ]: DbPool 不存在,创建新实例
+[2017-10-09 14:24:22,067][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbPool实例创建完成
+[2017-10-09 14:24:22,146][main]com.ods.log.OdsLog[118][INFO ]: QueueManager 不存在,创建新实例
+[2017-10-09 14:24:22,147][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:QueueManager实例创建完成
+[2017-10-09 14:24:22,150][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-09 14:24:22,151][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-09 14:24:22,151][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-09 14:24:22,152][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-09 14:24:22,152][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-09 14:24:22,152][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-09 14:24:22,153][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-09 14:24:22,154][main]com.ods.manager.TxnConfigManager[34][INFO ]: 加载交易与交易配置文件对照关系的花名册:开始
+[2017-10-09 14:24:22,155][main]com.ods.manager.TxnConfigManager[52][INFO ]: 加载交易与交易配置文件对照关系的花名册:完成
+[2017-10-09 14:24:22,162][main]com.ods.log.OdsLog[118][INFO ]: UnPackService 不存在,创建新实例
+[2017-10-09 14:24:22,162][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:UnPackService实例创建完成
+[2017-10-09 14:24:22,163][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:24:22,166][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:24:22,167][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:24:22,168][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:24:22,171][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:24:22,173][main]com.ods.manager.InitSystem[93][INFO ]: UnPackService 启动成功, 启动线程数:5线程名 ,UnPackService-0,UnPackService-1,UnPackService-2,UnPackService-3,UnPackService-4
+[2017-10-09 14:24:22,178][main]com.ods.log.OdsLog[118][INFO ]: TxnService 不存在,创建新实例
+[2017-10-09 14:24:22,179][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:TxnService实例创建完成
+[2017-10-09 14:24:22,180][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:24:22,181][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:24:22,182][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:24:22,182][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:24:22,182][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:24:22,184][main]com.ods.manager.InitSystem[103][INFO ]: TxnService 启动成功, 启动线程数:5线程名 ,TxnService-0,TxnService-1,TxnService-2,TxnService-3,TxnService-4
+[2017-10-09 14:24:22,197][main]com.ods.log.OdsLog[118][INFO ]: PackService 不存在,创建新实例
+[2017-10-09 14:24:22,198][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:PackService实例创建完成
+[2017-10-09 14:24:22,198][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:24:22,199][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:24:22,200][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:24:22,201][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:24:22,202][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:24:22,203][main]com.ods.manager.InitSystem[113][INFO ]: EsbPackService 启动成功, 启动线程数:5线程名 ,EsbPackService-0,EsbPackService-1,EsbPackService-2,EsbPackService-3,EsbPackService-4
+[2017-10-09 14:24:22,210][main]com.ods.log.OdsLog[118][INFO ]: SendService 不存在,创建新实例
+[2017-10-09 14:24:22,217][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:SendService实例创建完成
+[2017-10-09 14:24:22,218][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:24:22,220][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:24:22,220][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:24:22,222][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:24:22,223][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:24:22,224][main]com.ods.manager.InitSystem[123][INFO ]: SendSuccMsgService 启动成功, 启动线程数:5线程名 ,SendSuccMsgService-0,SendSuccMsgService-1,SendSuccMsgService-2,SendSuccMsgService-3,SendSuccMsgService-4
+[2017-10-09 14:24:22,226][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:24:22,228][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:24:22,230][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:24:22,238][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:24:22,241][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:24:22,242][main]com.ods.manager.InitSystem[133][INFO ]: SendFailMsgService 启动成功, 启动线程数:5线程名 ,SendFailMsgService-0,SendFailMsgService-1,SendFailMsgService-2,SendFailMsgService-3,SendFailMsgService-4
+[2017-10-09 14:24:22,250][main]com.ods.manager.InitSystem[143][INFO ]: 本机名称是:DESKTOP-FV0I80C
+[2017-10-09 14:24:22,250][main]com.ods.manager.InitSystem[144][INFO ]: 本机的ip是:192.168.241.1
+[2017-10-09 14:24:22,256][main]com.ods.log.OdsLog[118][INFO ]: Handler 不存在,创建新实例
+[2017-10-09 14:24:22,257][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:Handler实例创建完成
+[2017-10-09 14:24:22,973][main]com.ods.manager.InitSystem[159][ERROR]: WebService发布完成, 地址:http://192.168.241.1:8090/queryods
+[2017-10-09 14:24:30,279][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710091424300000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:24:32,169][UnPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091424300000000001
+[2017-10-09 14:24:32,256][UnPackService-0]com.ods.service.UnPackService[154][INFO ]: 201710091424300000000001 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:24:32,344][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY.FCCODE:[1001]
+[2017-10-09 14:24:32,344][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:24:32,345][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:24:32,346][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:24:32,346][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:24:32,346][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:24:32,347][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:24:32,348][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091424300000000001 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:24:32,348][UnPackService-0]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:24:32,348][UnPackService-0]com.ods.service.UnPackService[194][INFO ]: 201710091424300000000001 交易代号为: test
+[2017-10-09 14:24:32,349][UnPackService-0]com.ods.service.UnPackService[217][INFO ]: 201710091424300000000001解包完成
+[2017-10-09 14:24:32,349][UnPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091424300000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:24:37,183][TxnService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091424300000000001
+[2017-10-09 14:24:37,184][TxnService-0]com.ods.service.TxnService[86][INFO ]: test流水号201710091424300000000001处理开始
+[2017-10-09 14:24:37,185][TxnService-0]com.ods.service.TxnService[122][INFO ]: test流水号201710091424300000000001:(ft_no,123)
+[2017-10-09 14:24:37,185][TxnService-0]com.ods.service.TxnService[122][INFO ]: test流水号201710091424300000000001:(num,987)
+[2017-10-09 14:24:37,186][TxnService-0]com.ods.service.TxnService[122][INFO ]: test流水号201710091424300000000001:(sa_acct_no,963)
+[2017-10-09 14:24:37,186][TxnService-0]com.ods.service.TxnService[130][INFO ]: test流水号201710091424300000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:24:37,191][TxnService-0]com.ods.log.OdsLog[118][INFO ]: AccnoQuary 不存在,创建新实例
+[2017-10-09 14:24:37,193][TxnService-0]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:AccnoQuary实例创建完成
+[2017-10-09 14:24:37,194][TxnService-0]com.ods.service.TxnService[151][INFO ]: test流水号201710091424300000000001实例化 交易对应的处理类
+[2017-10-09 14:24:37,196][TxnService-0]com.ods.log.OdsLog[118][INFO ]: DbQuery 不存在,创建新实例
+[2017-10-09 14:24:37,223][TxnService-0]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbQuery实例创建完成
+[2017-10-09 14:24:37,979][TxnService-0]com.alibaba.druid.pool.DruidDataSource[889][INFO ]: {dataSource-1} inited
+[2017-10-09 14:24:38,046][TxnService-0]com.ods.service.TxnService[158][ERROR]: test流水号201710091424300000000001异常:ORA-00942: 表或视图不存在
+
+[2017-10-09 14:24:38,047][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091424300000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-09 14:24:38,048][TxnService-0]com.ods.service.TxnService[161][INFO ]: test流水号201710091424300000000001数据库操作交易处理完成
+[2017-10-09 14:24:38,048][TxnService-0]com.ods.service.TxnService[185][ERROR]: test流水号201710091424300000000001异常:null
+[2017-10-09 14:24:38,049][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091424300000000001加入到队列FailQueue完成,操作结果:true
+[2017-10-09 14:24:38,049][TxnService-0]com.ods.service.TxnService[188][INFO ]: test流水号201710091424300000000001生成key值 完成
+[2017-10-09 14:24:38,049][TxnService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091424300000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:24:38,049][TxnService-0]com.ods.service.TxnService[191][INFO ]: test流水号201710091424300000000001处理完成
+[2017-10-09 14:24:38,210][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091424300000000001
+[2017-10-09 14:24:38,210][EsbPackService-1]com.ods.service.EsbPackService[86][INFO ]: 流水号201710091424300000000001 状态为false, 交易不再处理
+[2017-10-09 14:24:42,238][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710091424300000000001
+[2017-10-09 14:24:42,238][SendFailMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 FailQueue队列元素完成,获取元素的系统流水号:201710091424300000000001
+[2017-10-09 14:24:42,239][pool-1-thread-1]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:35:51,037][main]com.ods.log.OdsLog[118][INFO ]: DbPool 不存在,创建新实例
+[2017-10-09 14:35:51,040][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbPool实例创建完成
+[2017-10-09 14:35:51,115][main]com.ods.log.OdsLog[118][INFO ]: QueueManager 不存在,创建新实例
+[2017-10-09 14:35:51,115][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:QueueManager实例创建完成
+[2017-10-09 14:35:51,117][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列HandlerQuene完成
+[2017-10-09 14:35:51,118][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列UnpackQueue完成
+[2017-10-09 14:35:51,118][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列PackQueue完成
+[2017-10-09 14:35:51,119][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列TxnQueue完成
+[2017-10-09 14:35:51,119][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列ManagerQuene完成
+[2017-10-09 14:35:51,119][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列FailQueue完成
+[2017-10-09 14:35:51,120][main]com.ods.manager.QueueManager[73][INFO ]: 初始化队列SuccessQueue完成
+[2017-10-09 14:35:51,121][main]com.ods.manager.TxnConfigManager[34][INFO ]: 加载交易与交易配置文件对照关系的花名册:开始
+[2017-10-09 14:35:51,122][main]com.ods.manager.TxnConfigManager[52][INFO ]: 加载交易与交易配置文件对照关系的花名册:完成
+[2017-10-09 14:35:51,125][main]com.ods.log.OdsLog[118][INFO ]: UnPackService 不存在,创建新实例
+[2017-10-09 14:35:51,125][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:UnPackService实例创建完成
+[2017-10-09 14:35:51,125][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:35:51,128][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:35:51,128][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:35:51,129][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:35:51,130][main]com.ods.service.UnPackService[53][INFO ]: 初始化队列完成, 输入队列:[UnpackQueue] 输出队列:[TxnQueue]
+[2017-10-09 14:35:51,130][main]com.ods.manager.InitSystem[93][INFO ]: UnPackService 启动成功, 启动线程数:5线程名 ,UnPackService-0,UnPackService-1,UnPackService-2,UnPackService-3,UnPackService-4
+[2017-10-09 14:35:51,132][main]com.ods.log.OdsLog[118][INFO ]: TxnService 不存在,创建新实例
+[2017-10-09 14:35:51,134][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:TxnService实例创建完成
+[2017-10-09 14:35:51,134][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:35:51,134][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:35:51,135][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:35:51,135][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:35:51,136][main]com.ods.service.TxnService[50][INFO ]: 初始化队列完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
+[2017-10-09 14:35:51,136][main]com.ods.manager.InitSystem[103][INFO ]: TxnService 启动成功, 启动线程数:5线程名 ,TxnService-0,TxnService-1,TxnService-2,TxnService-3,TxnService-4
+[2017-10-09 14:35:51,138][main]com.ods.log.OdsLog[118][INFO ]: PackService 不存在,创建新实例
+[2017-10-09 14:35:51,139][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:PackService实例创建完成
+[2017-10-09 14:35:51,139][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:35:51,140][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:35:51,140][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:35:51,141][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:35:51,142][main]com.ods.service.EsbPackService[56][INFO ]: 初始化队列完成, 输入队列:[PackQueue] 输出队列:[SuccessQueue]
+[2017-10-09 14:35:51,142][main]com.ods.manager.InitSystem[113][INFO ]: EsbPackService 启动成功, 启动线程数:5线程名 ,EsbPackService-0,EsbPackService-1,EsbPackService-2,EsbPackService-3,EsbPackService-4
+[2017-10-09 14:35:51,143][main]com.ods.log.OdsLog[118][INFO ]: SendService 不存在,创建新实例
+[2017-10-09 14:35:51,145][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:SendService实例创建完成
+[2017-10-09 14:35:51,146][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:35:51,146][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:35:51,147][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:35:51,147][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:35:51,148][main]com.ods.service.SendSuccMsgService[56][INFO ]: 初始化队列完成, 输入队列:[SuccessQueue] 输出队列:[null]
+[2017-10-09 14:35:51,148][main]com.ods.manager.InitSystem[123][INFO ]: SendSuccMsgService 启动成功, 启动线程数:5线程名 ,SendSuccMsgService-0,SendSuccMsgService-1,SendSuccMsgService-2,SendSuccMsgService-3,SendSuccMsgService-4
+[2017-10-09 14:35:51,150][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:35:51,151][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:35:51,151][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:35:51,151][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:35:51,152][main]com.ods.service.SendFailMsgService[57][INFO ]: 初始化队列完成, 输入队列:[FailQueue] 输出队列:[null]
+[2017-10-09 14:35:51,152][main]com.ods.manager.InitSystem[133][INFO ]: SendFailMsgService 启动成功, 启动线程数:5线程名 ,SendFailMsgService-0,SendFailMsgService-1,SendFailMsgService-2,SendFailMsgService-3,SendFailMsgService-4
+[2017-10-09 14:35:51,163][main]com.ods.manager.InitSystem[143][INFO ]: 本机名称是:DESKTOP-FV0I80C
+[2017-10-09 14:35:51,163][main]com.ods.manager.InitSystem[144][INFO ]: 本机的ip是:192.168.241.1
+[2017-10-09 14:35:51,164][main]com.ods.log.OdsLog[118][INFO ]: Handler 不存在,创建新实例
+[2017-10-09 14:35:51,165][main]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:Handler实例创建完成
+[2017-10-09 14:35:51,797][main]com.ods.manager.InitSystem[159][ERROR]: WebService发布完成, 地址:http://192.168.241.1:8090/queryods
+[2017-10-09 14:36:18,884][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436180000000001加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:21,147][UnPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436180000000001
+[2017-10-09 14:36:21,239][UnPackService-3]com.ods.service.UnPackService[154][INFO ]: 201710091436180000000001 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:21,325][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:21,329][UnPackService-3]com.ods.service.UnPackService[174][INFO ]: 201710091436180000000001 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:21,329][UnPackService-3]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:21,329][UnPackService-3]com.ods.service.UnPackService[194][INFO ]: 201710091436180000000001 交易代号为: test
+[2017-10-09 14:36:21,329][UnPackService-3]com.ods.service.UnPackService[217][INFO ]: 201710091436180000000001解包完成
+[2017-10-09 14:36:21,329][UnPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436180000000001加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:26,148][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436180000000001
+[2017-10-09 14:36:26,149][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436180000000001处理开始
+[2017-10-09 14:36:26,150][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436180000000001:(ft_no,123)
+[2017-10-09 14:36:26,150][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436180000000001:(num,987)
+[2017-10-09 14:36:26,150][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436180000000001:(sa_acct_no,963)
+[2017-10-09 14:36:26,151][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436180000000001获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:26,154][TxnService-1]com.ods.log.OdsLog[118][INFO ]: AccnoQuary 不存在,创建新实例
+[2017-10-09 14:36:26,154][TxnService-1]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:AccnoQuary实例创建完成
+[2017-10-09 14:36:26,154][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436180000000001实例化 交易对应的处理类
+[2017-10-09 14:36:26,156][TxnService-1]com.ods.log.OdsLog[118][INFO ]: DbQuery 不存在,创建新实例
+[2017-10-09 14:36:26,156][TxnService-1]com.ods.log.OdsLog[190][INFO ]: 日志记录实例:DbQuery实例创建完成
+[2017-10-09 14:36:26,788][TxnService-1]com.alibaba.druid.pool.DruidDataSource[889][INFO ]: {dataSource-1} inited
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:26,880][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,882][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,884][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:26,885][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:26,887][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436180000000001数据库操作交易处理完成
+[2017-10-09 14:36:26,934][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436180000000001生成key值 完成
+[2017-10-09 14:36:26,934][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436180000000001加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:26,934][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436180000000001处理完成
+[2017-10-09 14:36:27,184][EsbPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436180000000001
+[2017-10-09 14:36:27,219][EsbPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091436180000000001加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:31,167][SendSuccMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436180000000001
+[2017-10-09 14:36:31,169][pool-1-thread-1]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:44,843][pool-1-thread-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436440000000002加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:46,182][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436440000000002
+[2017-10-09 14:36:46,186][UnPackService-1]com.ods.service.UnPackService[154][INFO ]: 201710091436440000000002 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:46,186][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:46,190][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:46,190][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:46,190][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:46,190][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436440000000002 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[194][INFO ]: 201710091436440000000002 交易代号为: test
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.service.UnPackService[217][INFO ]: 201710091436440000000002解包完成
+[2017-10-09 14:36:46,193][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436440000000002加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:46,193][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436440000000002
+[2017-10-09 14:36:46,193][TxnService-3]com.ods.service.TxnService[86][INFO ]: test流水号201710091436440000000002处理开始
+[2017-10-09 14:36:46,193][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436440000000002:(ft_no,123)
+[2017-10-09 14:36:46,193][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436440000000002:(num,987)
+[2017-10-09 14:36:46,197][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436440000000002:(sa_acct_no,963)
+[2017-10-09 14:36:46,197][TxnService-3]com.ods.service.TxnService[130][INFO ]: test流水号201710091436440000000002获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:46,197][TxnService-3]com.ods.service.TxnService[151][INFO ]: test流水号201710091436440000000002实例化 交易对应的处理类
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:46,201][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.service.TxnService[161][INFO ]: test流水号201710091436440000000002数据库操作交易处理完成
+[2017-10-09 14:36:46,205][TxnService-3]com.ods.service.TxnService[188][INFO ]: test流水号201710091436440000000002生成key值 完成
+[2017-10-09 14:36:46,209][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436440000000002加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:46,209][TxnService-3]com.ods.service.TxnService[191][INFO ]: test流水号201710091436440000000002处理完成
+[2017-10-09 14:36:46,213][EsbPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436440000000002
+[2017-10-09 14:36:46,221][EsbPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436440000000002加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:46,412][pool-1-thread-2]com.ods.manager.QueueManager[91][INFO ]: 201710091436460000000003加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:47,098][pool-1-thread-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000004加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:47,223][pool-1-thread-4]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000005加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:48,795][pool-1-thread-5]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000006加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:48,995][pool-1-thread-6]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000007加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:48,995][pool-1-thread-7]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000008加入到队列UnpackQueue完成,操作结果:true
+[2017-10-09 14:36:51,198][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436460000000003
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[154][INFO ]: 201710091436460000000003 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436460000000003 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[194][INFO ]: 201710091436460000000003 交易代号为: test
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.service.UnPackService[217][INFO ]: 201710091436460000000003解包完成
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436460000000003加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,200][UnPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436470000000004
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436460000000003
+[2017-10-09 14:36:51,216][SendSuccMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436440000000002
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.service.TxnService[86][INFO ]: test流水号201710091436460000000003处理开始
+[2017-10-09 14:36:51,216][UnPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436480000000007
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436460000000003:(ft_no,123)
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436460000000003:(num,987)
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.service.TxnService[122][INFO ]: test流水号201710091436460000000003:(sa_acct_no,963)
+[2017-10-09 14:36:51,216][UnPackService-1]com.ods.service.UnPackService[154][INFO ]: 201710091436470000000004 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,216][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,216][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,216][UnPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436480000000006
+[2017-10-09 14:36:51,216][pool-1-thread-1]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:51,216][UnPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436470000000005
+[2017-10-09 14:36:51,294][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,216][TxnService-3]com.ods.service.TxnService[130][INFO ]: test流水号201710091436460000000003获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:51,294][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,294][TxnService-3]com.ods.service.TxnService[151][INFO ]: test流水号201710091436460000000003实例化 交易对应的处理类
+[2017-10-09 14:36:51,294][UnPackService-4]com.ods.service.UnPackService[154][INFO ]: 201710091436470000000005 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,294][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,309][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,294][UnPackService-0]com.ods.service.UnPackService[154][INFO ]: 201710091436480000000007 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.service.TxnService[161][INFO ]: test流水号201710091436460000000003数据库操作交易处理完成
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000007 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.service.TxnService[188][INFO ]: test流水号201710091436460000000003生成key值 完成
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436460000000003加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:51,309][UnPackService-0]com.ods.service.UnPackService[194][INFO ]: 201710091436480000000007 交易代号为: test
+[2017-10-09 14:36:51,309][TxnService-3]com.ods.service.TxnService[191][INFO ]: test流水号201710091436460000000003处理完成
+[2017-10-09 14:36:51,294][UnPackService-2]com.ods.service.UnPackService[154][INFO ]: 201710091436480000000006 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[217][INFO ]: 201710091436480000000007解包完成
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000007加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 UnpackQueue队列元素完成,获取元素的系统流水号:201710091436480000000008
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,309][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000006 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,294][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[194][INFO ]: 201710091436480000000006 交易代号为: test
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.service.UnPackService[217][INFO ]: 201710091436480000000006解包完成
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[154][INFO ]: 201710091436480000000008 解包开始,待解析报文:<?xml version="1.0" encoding="utf-8" ?> <DATA>                                            <test>test</test>	<ENTITY>                                         		<FCCODE>1001</FCCODE>                        		<MTCODE>SDSD</MTCODE>                        		<CURRSTOCK>1234566</CURRSTOCK>               		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ENTITY>                                         		<FCCODE>1002</FCCODE>                        		<MTCODE>GRDFF</MTCODE>                       		<CURRSTOCK>L6T7824SXGN175448</CURRSTOCK>     		<UPLOADTIME>2016-08-10 15:26:14</UPLOADTIME> 	</ENTITY>                                        	<ReqBody>                                        		<ft_no>123</ft_no>                           		<num>987</num>                               		<sa_acct_no>963</sa_acct_no>                 	</ReqBody>        </DATA>  
+[2017-10-09 14:36:51,324][UnPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000006加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY.FCCODE:[1001]
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY.MTCODE:[SDSD]
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000004 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[174][INFO ]: 201710091436470000000005 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[194][INFO ]: 201710091436470000000005 交易代号为: test
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY.CURRSTOCK:[1234566]
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.service.UnPackService[217][INFO ]: 201710091436470000000005解包完成
+[2017-10-09 14:36:51,324][UnPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000005加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[194][INFO ]: 201710091436470000000004 交易代号为: test
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.service.UnPackService[217][INFO ]: 201710091436470000000004解包完成
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY2.FCCODE:[1002]
+[2017-10-09 14:36:51,324][UnPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000004加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY2.MTCODE:[GRDFF]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY2.CURRSTOCK:[L6T7824SXGN175448]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[174][INFO ]: 201710091436480000000008 ENTITY2.UPLOADTIME:[2016-08-10 15:26:14]
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[161][WARN ]: ReqBodyPath节点对应路径ReqBodyPathPath 未配置
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[194][INFO ]: 201710091436480000000008 交易代号为: test
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.service.UnPackService[217][INFO ]: 201710091436480000000008解包完成
+[2017-10-09 14:36:51,324][UnPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000008加入到队列TxnQueue完成,操作结果:true
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436480000000007
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436480000000007处理开始
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000007:(ft_no,123)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000007:(num,987)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000007:(sa_acct_no,963)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436480000000007获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436480000000007实例化 交易对应的处理类
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436480000000007数据库操作交易处理完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436480000000007生成key值 完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000007加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436480000000007处理完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436480000000006
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436480000000006处理开始
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000006:(ft_no,123)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000006:(num,987)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000006:(sa_acct_no,963)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436480000000006获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436480000000006实例化 交易对应的处理类
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436480000000006数据库操作交易处理完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436480000000006生成key值 完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000006加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436480000000006处理完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436470000000005
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436470000000005处理开始
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000005:(ft_no,123)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000005:(num,987)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000005:(sa_acct_no,963)
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436470000000005获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:51,995][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436470000000005实例化 交易对应的处理类
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436470000000005数据库操作交易处理完成
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436470000000005生成key值 完成
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000005加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436470000000005处理完成
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436470000000004
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436470000000004处理开始
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000004:(ft_no,123)
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000004:(num,987)
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436470000000004:(sa_acct_no,963)
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436470000000004获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436470000000004实例化 交易对应的处理类
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436470000000004数据库操作交易处理完成
+[2017-10-09 14:36:52,011][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436470000000004生成key值 完成
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000004加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436470000000004处理完成
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 TxnQueue队列元素完成,获取元素的系统流水号:201710091436480000000008
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[86][INFO ]: test流水号201710091436480000000008处理开始
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000008:(ft_no,123)
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000008:(num,987)
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[122][INFO ]: test流水号201710091436480000000008:(sa_acct_no,963)
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[130][INFO ]: test流水号201710091436480000000008获取RspBody中的入参加入到inParm列表完成
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[151][INFO ]: test流水号201710091436480000000008实例化 交易对应的处理类
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 1231sdfa
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+946+84+6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 13
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 1
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 19
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 3
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 32
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 12
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[28][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[29][INFO ]: 94+dsafja6
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[30][INFO ]: 
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.transaction.test[31][INFO ]: 56
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[161][INFO ]: test流水号201710091436480000000008数据库操作交易处理完成
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[188][INFO ]: test流水号201710091436480000000008生成key值 完成
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000008加入到队列PackQueue完成,操作结果:true
+[2017-10-09 14:36:52,026][TxnService-1]com.ods.service.TxnService[191][INFO ]: test流水号201710091436480000000008处理完成
+[2017-10-09 14:36:52,308][EsbPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436460000000003
+[2017-10-09 14:36:52,308][EsbPackService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436480000000007
+[2017-10-09 14:36:52,309][EsbPackService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436470000000004
+[2017-10-09 14:36:52,308][EsbPackService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436470000000005
+[2017-10-09 14:36:52,308][EsbPackService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436480000000006
+[2017-10-09 14:36:52,326][EsbPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436460000000003加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:52,326][EsbPackService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 PackQueue队列元素完成,获取元素的系统流水号:201710091436480000000008
+[2017-10-09 14:36:52,326][EsbPackService-0]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000004加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:52,326][EsbPackService-4]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000007加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:52,326][EsbPackService-2]com.ods.manager.QueueManager[91][INFO ]: 201710091436470000000005加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:52,326][EsbPackService-1]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000006加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:52,326][EsbPackService-3]com.ods.manager.QueueManager[91][INFO ]: 201710091436480000000008加入到队列SuccessQueue完成,操作结果:true
+[2017-10-09 14:36:56,216][SendSuccMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436460000000003
+[2017-10-09 14:36:56,216][SendSuccMsgService-1]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436480000000006
+[2017-10-09 14:36:56,217][pool-1-thread-2]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:56,216][SendSuccMsgService-4]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436480000000008
+[2017-10-09 14:36:56,217][pool-1-thread-5]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:56,216][SendSuccMsgService-3]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436470000000004
+[2017-10-09 14:36:56,216][SendSuccMsgService-0]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436480000000007
+[2017-10-09 14:36:56,219][pool-1-thread-7]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:56,216][SendSuccMsgService-2]com.ods.manager.QueueManager[107][INFO ]: 获取 SuccessQueue队列元素完成,获取元素的系统流水号:201710091436470000000005
+[2017-10-09 14:36:56,219][pool-1-thread-4]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:56,219][pool-1-thread-6]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-10-09 14:36:56,219][pool-1-thread-3]com.ods.manager.Handler[56][INFO ]: wake UP
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ods.manager.Handler.QueryODS(Handler.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
