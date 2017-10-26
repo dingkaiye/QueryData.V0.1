@@ -33,7 +33,8 @@ public class test implements ITransaction{
 		}
 		
 		QueryMessager  Result = new QueryMessager(resultList , resultList);
-		return Result;
+//		return Result;
+		return new QueryMessager("qwertyuiop", "safdjas;oifha;oie;oaewihakas阿鲁卡多减肥啦");
 	}
 	
 }

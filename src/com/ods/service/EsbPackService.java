@@ -128,10 +128,10 @@ public class EsbPackService extends Thread {
 			String SerialNo = txnMessager.getSerialNo() ; 
 			logger.debug(SerialNo + " 开始组织应答XML包");
 			
-			//用于格式化xml内容和设置头部标签
-			OutputFormat format = OutputFormat.createPrettyPrint();
-			//设置xml文档的编码为utf-8
-			format.setEncoding("utf-8");
+//			//用于格式化xml内容和设置头部标签
+//			OutputFormat format = OutputFormat.createPrettyPrint();
+//			//设置xml文档的编码为utf-8
+//			format.setEncoding("utf-8");
 			
 			Document document = DocumentHelper.createDocument();
 			document.setXMLEncoding("UTF-8");

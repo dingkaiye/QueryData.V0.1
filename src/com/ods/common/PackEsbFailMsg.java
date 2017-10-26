@@ -44,7 +44,7 @@ public class PackEsbFailMsg {
 		Document document = DocumentHelper.createDocument();
 		document.setXMLEncoding("UTF-8");
 		
-		Element root = document.addElement("soapeng:Envlope");
+		Element root = document.addElement("soapenv:Envelope");
 		root.add(DocumentHelper.createNamespace("soapenv", "http://schemas.xmlsoap.org/soap/envelope/") );
 		root.add(DocumentHelper.createNamespace("s", "http://esb.dcitsbiz.com/services/S030010001") ); 
 		
@@ -67,9 +67,10 @@ public class PackEsbFailMsg {
 		
 		packSyshead(SysHead, mapReqMsg, serialNo , txnSt, retCd, retMsg);
 		
-		logger.debug("  " + root.asXML() + "\n");
+		String xmlTitle = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 		
-		return root.asXML();
+		logger.info(serialNo + "返回报文为: " + xmlTitle + root.asXML() + "\n");
+		return xmlTitle + root.asXML();
 	}
 	
 	

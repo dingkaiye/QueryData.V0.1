@@ -1,5 +1,0 @@
-[2017-10-20 10:04:57,359][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
-[2017-10-20 10:04:57,367][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
-[2017-10-20 10:04:57,368][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
-[2017-10-20 10:04:57,368][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]
-[2017-10-20 10:04:57,369][main]com.ods.service.TxnService[52][INFO ]: 服务初始化完成, 输入队列:[TxnQueue] 输出队列:[PackQueue]

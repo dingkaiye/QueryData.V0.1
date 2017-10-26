@@ -1,4 +1,0 @@
-[2017-10-13 16:46:27,794][TxnService-3]com.ods.db.DbQuery[34][INFO ]: 查询开始,SQL[select * from TEST] 入参[null] 
-[2017-10-13 16:46:31,927][TxnService-3]com.ods.db.DbQuery[52][INFO ]: 查询完成,SQL[select * from TEST] 入参[null] 
-[2017-10-13 16:47:34,507][TxnService-0]com.ods.db.DbQuery[34][INFO ]: 查询开始,SQL[select * from TEST] 入参[null] 
-[2017-10-13 16:47:34,658][TxnService-0]com.ods.db.DbQuery[52][INFO ]: 查询完成,SQL[select * from TEST] 入参[null] 

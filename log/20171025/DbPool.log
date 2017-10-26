@@ -1,2 +1,0 @@
-[2017-10-25 10:10:44,924][main]com.ods.db.DbPool[72][INFO ]: 数据库连接池建立完毕
-[2017-10-25 10:10:52,722][TxnService-2]com.ods.db.DbPool[62][DEBUG]: 数据库连接获取完毕

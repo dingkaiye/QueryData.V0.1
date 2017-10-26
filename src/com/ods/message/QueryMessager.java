@@ -50,7 +50,7 @@ public class QueryMessager {
 	/**
 	 * 构造含有错误信息的返回
 	 */
-	public QueryMessager(boolean result, String returnCode, String msg){
+	public QueryMessager(String returnCode, String msg){
 		this.result = false;
 		this.returnCode = returnCode;
 		this.msg = msg;
