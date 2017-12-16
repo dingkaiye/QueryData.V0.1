@@ -40,14 +40,7 @@ public class SendSuccMsgService extends Thread {
 			this.nextQueue = nextQueueName;
 		}
 		logger.info("服务初始化完成, 输入队列:[" + this.QueueName + "] 输出队列:[" + this.nextQueue + "]");
-		// 读取配置文件
-		try {
-			properties = Config.loadConfigPropertiesFile(confile);
-		} catch (IOException e) {
-			logger.info(confile + "配置文件载入失败");
-			e.printStackTrace();
-			throw e;
-		}
+		
 	}
 	
 	@Override
@@ -74,7 +67,7 @@ public class SendSuccMsgService extends Thread {
 
 						// 同步方式, 取得TxnMessage中记录的线程, 中断线程 sleep
 						// 先实现同步方式 相应, 后期开发异步相应方式
-						Thread headler = (Thread) txnMessager.getHeadler();
+						Thread headler = (Thread) txnMessager.getHeadlerThread();
 						headler.interrupt(); // 中断 headler的等待
 
 						// 异步方式, 放入 对应的 Gate 队列

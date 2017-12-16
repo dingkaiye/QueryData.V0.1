@@ -16,46 +16,38 @@ public class TxnMessager {
 	
 	private String serialNo = null ;  // 系统流水号
 	
-	private String TxnId = null;      // 请求方请求调用的交易代号
+	private EsbMessageIn messageIn = null;  //接收到的报文
+	private EsbMessageOut messageOut = null; //返回报文
+	
+	private String TxnId = null;        // 请求方请求调用的交易代号
 	private boolean msgStatus = true ;  //消息是否有效
-	private Object Headler = null; //处理本交易的 HeadlerThread 
+	private Object  headlerThread = null;      //处理本交易的 HeadlerThread 
 	
-	private String reqMsg = null;  //ESB请求报文内容
-	private String rspMsg = null;  //返回ESB报文内容
-	private Map<String, Object> mapReqMsg = null; //解析后的报文
-	private Map<String, Object> mapRspMsg = null; //组装前的报文
 	
-	private Map<String, Object> inParm = null;   //入参
-	private Map<String, Object> resultHead = null;  //数据库查询结果,表头数据
+	private Map<String, Object> inParm = null;        //入参
+	private Map<String, Object> resultHead = null;      //数据库查询结果,表头数据
 	private ArrayList<DbDataLine> resultList = null;    //数据库查询结果的数据
 	private String returnCode = null;  // 返回码
 	private String msg = null;         // 返回信息
-	// 解析后的报文头信息 
-	//AppHeadIn  appHeadIn;
-	//AppHeadOut appHeadOut;
-	//SysHeadIn  sysHeadIn; 
-	//SysHeadOut sysHeadOut;
 	
 	private int stepCnt = 0 ;   //步骤计数器
 	private String currentStep = null;   //当前步骤
 	private String currentStatus = null; //当前状态
+
 	
 	
 	private ArrayList<TxnStep> trans = null; // 记录 步骤, 状态, 记录执行踪迹, 信息
 
-	public TxnMessager(String recvMessage, String serialNo) {
+	public TxnMessager(EsbMessageIn recvMessage, String serialNo, String TxnId ) {
 		if (serialNo == null || "".equals(serialNo) ) {
 			this.serialNo = SerialNo.getNextSerialNo() ;  // 获取系统流水号
 		} else {
 			this.serialNo = serialNo;
 		}
 		
-		TxnId = new String();
-		reqMsg = recvMessage;  //ESB请求报文内容
-		rspMsg = new String(); //返回ESB报文内容
-		
-		mapReqMsg = new HashMap<String, Object>() ; //解析后的报文
-		mapRspMsg = new HashMap<String, Object>() ; //组装前的报文
+		this.TxnId = TxnId;
+		messageIn = recvMessage;    //ESB请求报文内容
+		messageOut = new EsbMessageOut(); //返回ESB报文内容
 		
 		inParm = new HashMap<String, Object>();   //入参
 		resultHead = new HashMap<String, Object>(); //返回结果 的表头
@@ -64,7 +56,7 @@ public class TxnMessager {
 		//初始化参数
 		msgStatus =  true;     //消息是否有效; 
 		startTime=System.currentTimeMillis();  //开始时间戳,辅助判断交易超时(未启用)
-		stepCnt = 0 ;    //步骤计数器
+		stepCnt = 0 ;          //步骤计数器
 		currentStep = new String("initial");   //当前步骤
 		currentStatus = new String("initial"); //当前状态
 		msg = new String("");
@@ -72,21 +64,25 @@ public class TxnMessager {
 	}
 
 
-	public String getRequestMsg() {
-		return reqMsg;
+	public EsbMessageIn getMessageIn() {
+		return messageIn;
 	}
 
-	public void setRequestMsg(String requestMsg) {
-		this.reqMsg = requestMsg;
+
+	public void setMessageIn(EsbMessageIn messageIn) {
+		this.messageIn = messageIn;
 	}
 
-	public String getResponseMsg() {
-		return rspMsg;
+
+	public EsbMessageOut getMessageOut() {
+		return messageOut;
 	}
 
-	public void setResponseMsg(String responseMsg) {
-		this.rspMsg = responseMsg;
+
+	public void setMessageOut(EsbMessageOut messageOut) {
+		this.messageOut = messageOut;
 	}
+
 
 	/**
 	 * @param currentStep
@@ -104,6 +100,7 @@ public class TxnMessager {
 		txnStep.setMsg(msg);
 		txnStep.setCurrentStatus(currentStatus);
 		trans.add(txnStep);
+		this.msg = msg;
 	}
 	
 	public void setcurrent(String currentStatus, String msg) {
@@ -116,6 +113,7 @@ public class TxnMessager {
 		txnStep.setMsg(msg);
 		txnStep.setCurrentStatus(currentStatus);
 		trans.add(txnStep);
+		this.msg = msg;
 	}
 	
 	public String getSerialNo() {
@@ -191,31 +189,19 @@ public class TxnMessager {
 		return trans;
 	}
 
-	public String getReqMsg() {
-		return reqMsg;
-	}
-
-	public String getRspMsg() {
-		return rspMsg;
-	}
-
-	public void setRspMsg(String rspMsg) {
-		this.rspMsg = rspMsg;
-	}
-
 
 	/**
 	 * 解析成 HashMap 的请求报文, 方便通过键值对获取
 	 * @return
 	 */
-	public Map<String, Object> getMapReqMsg() {
-		return mapReqMsg;
-	}
-
-	
-	public Map<String, Object> getMapRspMsg() {
-		return mapRspMsg;
-	}
+//	public Map<String, Object> getMapReqMsg() {
+//		return mapReqMsg;
+//	}
+//
+//	
+//	public Map<String, Object> getMapRspMsg() {
+//		return mapRspMsg;
+//	}
 
 	/**
 	 * 获取消息初始化时间
@@ -225,14 +211,7 @@ public class TxnMessager {
 		return startTime;
 	}
 
-	public Object getHeadler() {
-		return Headler;
-	}
 
-	public void setHeadler(Object handler) {
-		Headler = handler;
-	}
-	
 	private long startTime = 0; //开始时间戳,辅助判断交易超时
 	public Map<String, Object> getResultHead() {
 		return resultHead;
@@ -248,6 +227,15 @@ public class TxnMessager {
 
 	public void setReturnCode(String returnCode) {
 		this.returnCode = returnCode;
+	}
+
+
+	public Object getHeadlerThread() {
+		return headlerThread;
+	}
+
+	public void setHeadlerThread(Object headlerThread) {
+		this.headlerThread = headlerThread;
 	}
 	
 	

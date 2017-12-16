@@ -1,0 +1,91 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<tns:RspS30013001504 xmlns:s="http://127.0.0.1:8090/ODS"
+			xmlns:tns="http://127.0.0.1:8090/ODS/wsdl">
+			<s:RspSysHead>
+				<s:SvcId>
+					?
+					<s: / SvcId>
+						<s:SvcScn>
+							?
+							<s: / SvcScn>
+								<s:SvcSplrTxnCd>
+									?
+									<s: / SvcSplrTxnCd>
+										<s:SvcCstTxnCd>
+											?
+											<s: / SvcCstTxnCd>
+												<s:MAC>
+													?
+													<s: / MAC>
+														<s:CnsmrSysId>
+															?
+															<s: / CnsmrSysId>
+																<s:Vrsn>
+																	0.1
+																	<s: / Vrsn>
+																		<s:CnsmrSeqNo>
+																			?
+																			<s: / CnsmrSeqNo>
+																				<s:SvcSplrSysId>
+																					ODS
+																					<s: / SvcSplrSysId>
+																						<s:SvcSplrSeqNo>
+																							201712081023560000000002
+																							<s: / SvcSplrSeqNo>
+																								<s:TxnDt>
+																									?
+																									<s: / TxnDt>
+																										<s:TxnTm>
+																											?
+																											<s: / TxnTm>
+																												<s:AcgDt>
+																													?
+																													<s: / AcgDt>
+																														<s:TxnChnlTp>
+																															?
+																															<s: / TxnChnlTp>
+																																<s:ChnlNo>
+																																	?
+																																	<s: / ChnlNo>
+																																		<s:TxnTmlId>
+																																			?
+																																			<s: / TxnTmlId>
+																																				<s:CnsmrSvrId>
+																																					?
+																																					<s: / CnsmrSvrId>
+																																						<s:OrigCnsmrId>
+																																							?
+																																							<s: / OrigCnsmrId>
+																																								<s:OrigCnsmrSeqNo>
+																																									?
+																																									<s: / OrigCnsmrSeqNo>
+																																										<s:OrigTmlId>
+																																											?
+																																											<s: / OrigTmlId>
+																																												<s:OrigCnsmrSvrId>
+																																													?
+																																													<s: / OrigCnsmrSvrId>
+																																														<s:UsrLng>
+																																															?
+																																															<s: / UsrLng>
+																																																<s:FileFlg>
+																																																	?
+																																																	<s: / FileFlg>
+																																																		<s:TxnSt>
+																																																			F
+																																																			<s: / TxnSt>
+																																																				<s:RetCd>
+																																																					Error
+																																																					<s: / RetCd>
+																																																						<s:RetMsg>
+																																																							交易不存在
+																																																							<s: / RetMsg>
+																																																								<s: /
+																																																									RspSysHead>
+																																																									<s: /
+																																																										ns2:RspS30013001504>
+																																																										<s: /
+																																																											soap:Body>
+																																																											<s: /
+																																																												soap:Envelope>

@@ -1,147 +1,41 @@
 package com.ods.message;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import com.ods.common.NameSpace;
+
 /**
  * @author ding_kaiye
  * @DATE 2017-09-14
- * 对应相应Esb报文中的AppHead
+ * 想要Esb报文中的AppHead
  */
+
+@XmlAccessorType(XmlAccessType.FIELD)  
+@XmlRootElement(name = "AppHead", namespace=NameSpace.ODS_URL)
 public class AppHeadOut {
 	
-	private String TxnTlrId = null;  //柜员号 
-	private String OrgId = null ;  //机构代码
-	private String TlrPwsd = null; // 柜员密码
-	private String TlrLvl = null ; // 柜员级别
-	private String TlrTp = null ;  // 柜员类别
-	private String aprvFlg = null;        // 复核标志
-	private String [] AprvTlrInf = null; // 录入柜员数组
-	private String AprvTlrId = null; // 录入柜员标识
-	private String AprvOrgId = null; // 交易录入机构代码 
-	private String AprvTlrLvl = null; // 交易录入柜员级别
-	private String AprvTlrTp = null; // 交易录入柜员类别
-	private String Ahrflg = null; // 授权标志
-	private String[] AhrTlrInf = null ; //授权柜员信息数组
-	private String AhrTlrId = null; // 授权柜员标识
-	private String AhrOrgId = null; // 授权机构代码 
-	private String AhrtlrPswd = null; // 授权柜员密码 
-	private String AhrTlrLvl = null; // 授权柜员级别
-	private String AhrTlrTp = null; // 授权柜员类别
-	private String Scndflg = null ; //二次提交标志
-	
-	
-	public String getTxnTlrId() {
-		return TxnTlrId;
-	}
-	public void setTxnTlrId(String txnTlrId) {
-		TxnTlrId = txnTlrId;
-	}
-	public String getOrgId() {
-		return OrgId;
-	}
-	public void setOrgId(String orgId) {
-		OrgId = orgId;
-	}
-	public String getTlrPwsd() {
-		return TlrPwsd;
-	}
-	public void setTlrPwsd(String tlrPwsd) {
-		TlrPwsd = tlrPwsd;
-	}
-	public String getTlrLvl() {
-		return TlrLvl;
-	}
-	public void setTlrLvl(String tlrLvl) {
-		TlrLvl = tlrLvl;
-	}
-	public String getTlrTp() {
-		return TlrTp;
-	}
-	public void setTlrTp(String tlrTp) {
-		TlrTp = tlrTp;
-	}
-	public String getAprvFlg() {
-		return aprvFlg;
-	}
-	public void setAprvFlg(String aprvFlg) {
-		this.aprvFlg = aprvFlg;
-	}
-	public String[] getAprvTlrInf() {
-		return AprvTlrInf;
-	}
-	public void setAprvTlrInf(String[] aprvTlrInf) {
-		AprvTlrInf = aprvTlrInf;
-	}
-	public String getAprvTlrId() {
-		return AprvTlrId;
-	}
-	public void setAprvTlrId(String aprvTlrId) {
-		AprvTlrId = aprvTlrId;
-	}
-	public String getAprvOrgId() {
-		return AprvOrgId;
-	}
-	public void setAprvOrgId(String aprvOrgId) {
-		AprvOrgId = aprvOrgId;
-	}
-	public String getAprvTlrLvl() {
-		return AprvTlrLvl;
-	}
-	public void setAprvTlrLvl(String aprvTlrLvl) {
-		AprvTlrLvl = aprvTlrLvl;
-	}
-	public String getAprvTlrTp() {
-		return AprvTlrTp;
-	}
-	public void setAprvTlrTp(String aprvTlrTp) {
-		AprvTlrTp = aprvTlrTp;
-	}
-	public String getAhrflg() {
-		return Ahrflg;
-	}
-	public void setAhrflg(String ahrflg) {
-		Ahrflg = ahrflg;
-	}
-	public String[] getAhrTlrInf() {
-		return AhrTlrInf;
-	}
-	public void setAhrTlrInf(String[] ahrTlrInf) {
-		AhrTlrInf = ahrTlrInf;
-	}
-	public String getAhrTlrId() {
-		return AhrTlrId;
-	}
-	public void setAhrTlrId(String ahrTlrId) {
-		AhrTlrId = ahrTlrId;
-	}
-	public String getAhrOrgId() {
-		return AhrOrgId;
-	}
-	public void setAhrOrgId(String ahrOrgId) {
-		AhrOrgId = ahrOrgId;
-	}
-	public String getAhrtlrPswd() {
-		return AhrtlrPswd;
-	}
-	public void setAhrtlrPswd(String ahrtlrPswd) {
-		AhrtlrPswd = ahrtlrPswd;
-	}
-	public String getAhrTlrLvl() {
-		return AhrTlrLvl;
-	}
-	public void setAhrTlrLvl(String ahrTlrLvl) {
-		AhrTlrLvl = ahrTlrLvl;
-	}
-	public String getAhrTlrTp() {
-		return AhrTlrTp;
-	}
-	public void setAhrTlrTp(String ahrTlrTp) {
-		AhrTlrTp = ahrTlrTp;
-	}
-	public String getScndflg() {
-		return Scndflg;
-	}
-	public void setScndflg(String scndflg) {
-		Scndflg = scndflg;
-	}
-	
+	@XmlElement(name = "TxnTlrId", namespace = NameSpace.ODS_URL )
+	public String TxnTlrId   = null ;  // 柜员号
+	@XmlElement(name = "OrgId", namespace = NameSpace.ODS_URL )
+	public String OrgId      = null ;  // 机构代码
+	@XmlElement(name = "TlrPwsd", namespace = NameSpace.ODS_URL )
+	public String TlrPwsd    = null ;  // 柜员密码
+	@XmlElement(name = "TlrLvl", namespace = NameSpace.ODS_URL )
+	public String TlrLvl     = null ;  // 柜员级别
+	@XmlElement(name = "TlrTp", namespace = NameSpace.ODS_URL )
+	public String TlrTp      = null ;  // 柜员类别
+	@XmlElement(name = "AprvFlg", namespace = NameSpace.ODS_URL )
+	public String AprvFlg    = null ;  // 复核标志
+	@XmlElement(name = "AprvTlrInf", namespace = NameSpace.ODS_URL )
+	public AprvTlrInf AprvTlrInf = new AprvTlrInf() ;  // 录入柜员数组
+	@XmlElement(name = "AhrFlg", namespace = NameSpace.ODS_URL )
+	public String AhrFlg     = null ;  // 授权标志
+	@XmlElement(name = "AhrTlrInf", namespace = NameSpace.ODS_URL )
+	public AhrTlrInf AhrTlrInf  = new AhrTlrInf() ;  // 授权柜员信息数组
+	@XmlElement(name = "ScndFlg", namespace = NameSpace.ODS_URL )
+	public String ScndFlg    = null ;  // 二次提交标志
 	
 }

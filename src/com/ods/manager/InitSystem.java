@@ -1,11 +1,13 @@
 package com.ods.manager;
 
 import java.io.IOException;
-import java.net.InetAddress;
+import java.util.List;
 import java.util.Properties;
 
 import javax.xml.ws.Endpoint;
 
+import org.apache.cxf.jaxws.EndpointImpl;
+//import org.apache.cxf.frontend.ServerFactoryBean;
 import org.apache.log4j.Logger;
 
 import com.ods.common.Config;
@@ -18,15 +20,20 @@ import com.ods.service.EsbPackService;
 import com.ods.service.SendFailMsgService;
 import com.ods.service.SendSuccMsgService;
 import com.ods.service.TxnService;
-import com.ods.service.UnPackService;
+import com.ods.ws.ArtifactInInterceptor;
+import com.ods.ws.ArtifactOutInterceptor;
+import com.ods.ws.ESBWaiter;
+
+
+import org.apache.cxf.interceptor.Interceptor;
+import org.apache.cxf.message.Message;
 
 
 public class InitSystem {
 	
 	private static Logger logger = OdsLog.getLogger("SysLog"); 
-	private static int timeOut = 60 * 1000 ;
 	
-	public static void main (String[] args) throws Exception {
+	public static void main (String[] args)  {
 		try {
 			QueueManager.QueueInit(); // 初始化队列
 
@@ -49,15 +56,9 @@ public class InitSystem {
 				throw e;
 			}
 
-			// 获取系统级交易超时时间
-			try {
-				timeOut = new Integer(SysConfig.getProperty("TxnTimeOut")); // 获取交易时间,
-																			// 供系统交易使用
-			} catch (Exception e) {
-				timeOut = 60 * 1000;
-				logger.warn("系统交易超时时间获取出错, 设置为默认时间" + timeOut / 1000);
-			}
-
+			// 初始化系统交易量控制
+			TxnCntContrl.init();
+			
 			// 读取服务线程数配置
 			String UnPackService = SysConfig.getProperty("UnPackService");
 			String TxnService = SysConfig.getProperty("TxnService");
@@ -91,16 +92,6 @@ public class InitSystem {
 
 			int threadcnt = 0;
 			String thredName = null;
-
-			threadcnt = new Integer(UnPackService);
-			thredName = "";
-			for (int i = 0; i < threadcnt; i++) {
-				UnPackService service = new UnPackService(Constant.UnpackQueue, Constant.TxnQueue);
-				service.setName("UnPackService-" + i);
-				service.start();
-				thredName = thredName + " " + service.getName();
-			}
-			logger.info("UnPackService 启动成功, 启动线程数:" + threadcnt + " 线程名 " + thredName);
 
 			threadcnt = new Integer(TxnService);
 			thredName = "";
@@ -142,54 +133,38 @@ public class InitSystem {
 			}
 			logger.info("SendFailMsgService 启动成功, 启动线程数:" + threadcnt + " 线程名 " + thredName);
 
-			// 获取本机 IP 地址
-
-			String localname = null; // 主机名称
-			// try {
-			// InetAddress inetAddress = InetAddress.getLocalHost();
-			// localname = inetAddress.getHostName();
-			// localip = inetAddress.getHostAddress();
-			// logger.info("本机名称是:"+ localname);
-			// logger.info("本机的ip是:" + localip);
-			// } catch (Exception e) {
-			// logger.error("启动失败, 获取本机IP地址失败");
-			// throw new TxnException("启动失败, 获取本机IP地址失败");
-			// }
-
-			// 读取配置参数中的 IP, port 配置
-			String localip = SysConfig.getProperty("WebServiceIP");
-			if ("".equals(localip) || localip == null) {
-				logger.error("WebServiceIP 配置为空或未配置, 系统初始化失败");
-				throw new TxnException("WebServiceIP 配置为空或未配置, 系统初始化失败");
-			}
-			String port = SysConfig.getProperty("WebServicePort");
-			if ("".equals(port) || port == null) {
-				logger.error("WebServicePort 配置为空或未配置, 系统初始化失败");
-				throw new TxnException("WebServicePort 配置为空或未配置, 系统初始化失败");
+			String wsUrl = SysConfig.getProperty("WebServiceUrl");
+			if ("".equals(wsUrl) || wsUrl == null) {
+				logger.error("WebServiceUrl 配置为空或未配置, 系统初始化失败");
+				throw new TxnException("WebServiceUrl 配置为空或未配置, 系统初始化失败");
 			}
 
 			// 发布webservice
 			try {
-				Endpoint.publish("http://" + localip + ":" + port + "/queryods", new Handler());
-				logger.info("WebService发布完成, 地址:" + "http://" + localip + ":" + port + "/queryods");
+				ArtifactInInterceptor artifactInInterceptor = new ArtifactInInterceptor();
+				ArtifactOutInterceptor artifactOutInterceptor = new ArtifactOutInterceptor();
+				ESBWaiter waiter = new ESBWaiter();
+				
+				EndpointImpl endpointImpl = (EndpointImpl) Endpoint.publish(wsUrl, waiter);
+				//添加拦截器 
+				endpointImpl.getInInterceptors().add(artifactInInterceptor);
+				
+				List<Interceptor<? extends Message>> inInterceptors =  endpointImpl.getOutInterceptors();
+				inInterceptors.add(artifactOutInterceptor) ;
+				System.out.println(endpointImpl);
+				
+				logger.info("WebService发布完成, 地址:" + wsUrl);
 			} catch (Exception e) {
-				logger.error("WebService发布失败, 地址:" + "http://" + localip + ":" + port + "/queryods", e);
-				throw new TxnException("WebService发布失败, 地址:" + "http://" + localip + ":" + port + "/queryods");
+				logger.error("WebService发布失败, 地址:" + wsUrl, e);
+				throw new TxnException("WebService发布失败, 地址:" + wsUrl);
 			}
+			
 			logger.info("系统启动成功");
 		} catch (Exception e) {
 			logger.error("系统启动失败, 进程退出");
 			System.exit(-1);
 		}
 
-	}
-
-	public static int getTimeOut() {
-		return timeOut;
-	}
-
-	public static void setTimeOut(int timeOut) {
-		InitSystem.timeOut = timeOut;
 	}
 
 }

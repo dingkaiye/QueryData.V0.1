@@ -15,10 +15,10 @@ public class DbDataLine {
 
 	long rows =0 ;       // 行号
 	int columnCount = 0 ; // 本行中字段的数量, 对应实际字段个数, 如果存在字段,计数从1开始, 0表示没有字段 
-	private Map<Integer, String> seqNameLine   = new HashMap<Integer, String>();  // <列号, 列名>
+//	private Map<Integer, String> seqNameLine   = new HashMap<Integer, String>();  // <列号, 列名>
 	private Map<Integer, Object> seqValueLine  = new HashMap<Integer, Object>();  // <列号, 列对象>
-	private Map<String, Object> valueLine      = new HashMap<String, Object>();   // <列名, 列对象>
-	private Map<String, Object> columnTypeLine = new HashMap<String, Object>();   // <列名, 列类型>
+	private Map<String, Object> valueLine      = new HashMap<String, Object>();   // <列名, 数据值>
+//	private Map<String, Object> columnTypeLine = new HashMap<String, Object>();   // <列名, 列类型>
 	private StringBuffer keyValue = new StringBuffer();   //本行数据的keyValue
 	//private HashMap<String, DataColumn> dataLine    = null;  // <列名, 列类型>
 	
@@ -35,6 +35,7 @@ public class DbDataLine {
 	}
 	
 	/**
+	 * 根据指定的定义生成一个key值, 用来唯一的标记一行数据;
 	 * 对本行数据生成 keyValue, 并返回生成的 keyValue
 	 * @param keyDefine
 	 */
@@ -44,7 +45,8 @@ public class DbDataLine {
 		for (String key : keyDefine.split(",")) {
 			String name = key.split(":")[0];
 			int length = new Integer(key.split(":")[1]); // 按照指定长度截取
-			String value = (this.getColumnType(name) == null ? "": this.getColumnType(name).toString());
+//			String value = (this.getColumnType(name) == null ? "": this.getColumnType(name).toString());
+			String value = (this.valueLine.get(key) == null ? "": this.valueLine.get(key).toString());
 			value = String.format("%-"+ length +"s", value).substring(0, length);  //按照定义长度补位,数据超长则截取
 			keyValue.append(value);
 		}
@@ -65,10 +67,10 @@ public class DbDataLine {
 	public void init(ResultSet resultSet, String keyDefine) throws SQLException {
 		rows =0 ;       
 		columnCount = 0 ; 
-		seqNameLine.clear();
+//		seqNameLine.clear();
 		seqValueLine.clear();    
 		valueLine.clear();       
-		columnTypeLine.clear();  
+//		columnTypeLine.clear();  
 		keyValue.setLength(0);   
 		
 		this.addByResultSet(resultSet);   // 根据ResultSet初始化一行数据
@@ -102,33 +104,33 @@ public class DbDataLine {
 		return columnValue ;
 	}
 	
-	/**获取列属性  
-	 * @param columnName
-	 * @return
-	 */
-	public Object getType(String columnName) {
-		Object columnType = null;
-		columnType = columnTypeLine.get(columnName) ;
-		return columnType ;
-	}
+//	/**获取列属性  
+//	 * @param columnName
+//	 * @return
+//	 */
+//	public Object getType(String columnName) {
+//		Object columnType = null;
+//		columnType = columnTypeLine.get(columnName) ;
+//		return columnType ;
+//	}
 	
-	/**获取对象类型  
-	 * 
-	 * @param columnName
-	 * @return
-	 */
-	public Object getColumnType(String columnName) {
-		Object columnData = null;
-		columnData = columnTypeLine.get(columnName) ;
-		return columnData ;
-	}
+//	/**获取对象类型  
+//	 * 
+//	 * @param columnName
+//	 * @return
+//	 */
+//	public Object getColumnType(String columnName) {
+//		Object columnData = null;
+//		columnData = columnTypeLine.get(columnName) ;
+//		return columnData ;
+//	}
 	
 	/**
 	 * 根据字段号获取对应的字段名
 	 */
-	public String getColumnNameBySeq(int seq){
-		return seqNameLine.get(seq);
-	}
+//	public String getColumnNameBySeq(int seq){
+//		return seqNameLine.get(seq);
+//	}
 
 	/**
 	 * 将本行  ResultSet 指向的数据初始化到  本类中 
@@ -145,8 +147,8 @@ public class DbDataLine {
 		columnCount = data.getColumnCount();
 		for (int i = 1; i <= columnCount; i++) {
 			String columnName = data.getColumnLabel(i); // 取列标签
-			seqNameLine.put(i, columnName);             // <列号, 列名>
-			columnTypeLine.put(columnName, data.getColumnType(i)); // <列名, 列类型>
+//			seqNameLine.put(i, columnName);             // <列号, 列名>
+//			columnTypeLine.put(columnName, data.getColumnType(i)); // <列名, 列类型>
 
 			Object valueObject = resultSet.getObject(i);
 			if (valueObject != null) {
@@ -215,13 +217,13 @@ public class DbDataLine {
 		this.columnCount = columnCount;
 	}
 
-	public Map<Integer, String> getColumnNoLine() {
-		return seqNameLine;
-	}
-
-	public void setColumnNoLine(Map<Integer, String> columnNoLine) {
-		this.seqNameLine = columnNoLine;
-	}
+//	public Map<Integer, String> getColumnNoLine() {
+//		return seqNameLine;
+//	}
+//
+//	public void setColumnNoLine(Map<Integer, String> columnNoLine) {
+//		this.seqNameLine = columnNoLine;
+//	}
 
 	public Map<Integer, Object> getSeqValueLine() {
 		return seqValueLine;
@@ -239,13 +241,13 @@ public class DbDataLine {
 		this.valueLine = valueLine;
 	}
 
-	public Map<String, Object> getColumnTypeLine() {
-		return columnTypeLine;
-	}
-
-	public void setColumnTypeLine(Map<String, Object> columnTypeLine) {
-		this.columnTypeLine = columnTypeLine;
-	}
+//	public Map<String, Object> getColumnTypeLine() {
+//		return columnTypeLine;
+//	}
+//
+//	public void setColumnTypeLine(Map<String, Object> columnTypeLine) {
+//		this.columnTypeLine = columnTypeLine;
+//	}
 
 //	public HashMap<String, DataColumn> getDataLine() {
 //		return dataLine;

@@ -5,9 +5,11 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import com.ods.common.Config;
 import com.ods.common.Constant;
-import com.ods.common.PackEsbFailMsg;
 import com.ods.log.OdsLog;
 import com.ods.manager.QueueManager;
+import com.ods.message.EsbMessageIn;
+import com.ods.message.EsbMessageOut;
+import com.ods.message.EsbMessage;
 import com.ods.message.TxnMessager;
 
 public class SendFailMsgService extends Thread {
@@ -40,14 +42,7 @@ public class SendFailMsgService extends Thread {
 			this.nextQueue = nextQueueName;
 		}
 		logger.info("服务初始化完成, 输入队列:[" + this.QueueName + "] 输出队列:[" + this.nextQueue + "]");
-		// 读取配置文件
-		try {
-			properties = Config.loadConfigPropertiesFile(confile);
-		} catch (IOException e) {
-			logger.info(confile + "配置文件载入失败");
-			e.printStackTrace();
-			throw e;
-		}
+		
 	}
 
 	@Override
@@ -72,26 +67,31 @@ public class SendFailMsgService extends Thread {
 					try {
 						// 取得通讯方式 同步, 异步
 						// 组失败报文 
-						String reqMessage = txnMessager.getReqMsg(); 
-						String serialNo = txnMessager.getSerialNo();
+						EsbMessageIn esbMessage = null;
+						EsbMessage reqMessage = txnMessager.getMessageIn(); 
+						if (reqMessage instanceof EsbMessageIn ){
+							esbMessage = (EsbMessageIn) reqMessage;
+						
+						SerialNo = txnMessager.getSerialNo();
 						String txnSt = "F";  // F－系统处理失败
 						String RetCd = txnMessager.getReturnCode() ;
 						String retMsg = txnMessager.getMsg();
-						String rspMessage = PackEsbFailMsg.packEsbFailMsg(reqMessage, serialNo, txnSt, RetCd, retMsg);
-						txnMessager.setRspMsg(rspMessage);
+						EsbMessageOut rspMessage = PackEsbHead.packEsbFailMsg(esbMessage.getSysHead(), SerialNo, txnSt, RetCd, retMsg);
+						logger.debug(SerialNo + " 组失败包完成");
+						txnMessager.setMessageOut(rspMessage);
 						
 						// 同步方式, 取得TxnMessage中记录的线程, 中断线程 sleep
 						// 先实现同步方式 相应, 后期开发异步相应方式
-						Thread headler = (Thread) txnMessager.getHeadler();
+						Thread headler = (Thread) txnMessager.getHeadlerThread();
 						headler.interrupt(); // 中断 headler的等待
-
+						}
 						// 异步方式, 放入 对应的 Gate 队列
 
 						continue;
 
 					} catch (Exception e) {
 						logger.error("交易处理出现异常[" + SerialNo + "]" + e.getMessage());
-						QueueManager.moveToFailQueue(txnMessager);
+						//QueueManager.moveToFailQueue(txnMessager);
 					}
 				} else {
 					try {
@@ -104,7 +104,7 @@ public class SendFailMsgService extends Thread {
 
 			} catch (Exception e) {
 				logger.error("交易处理出现异常[" + SerialNo + "]" + e.getMessage());
-				QueueManager.moveToFailQueue(txnMessager);
+				//QueueManager.moveToFailQueue(txnMessager);
 			}
 
 		}

@@ -6,6 +6,7 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 
 import com.ods.common.Config;
+import com.ods.common.Constant;
 import com.ods.log.OdsLog;
 
 /**
@@ -21,8 +22,8 @@ public class TxnConfigManager {
 	//系统队列 Map
 	private static Hashtable<String, Properties> txnConfigMap = new Hashtable<String, Properties> () ;
 	
-	private static  String path = "./config/TxnConfig/";  //默认文件存放在此目录下
-	private static  String TxnRosterFileName =  "TxnRoster.properties" ; //交易花名册文件的默认文件名
+	private static  String path = Constant.TxnConfigPath;  //默认文件存放在此目录下
+	private static  String TxnRosterFileName =  Constant.TxnRosterFileName ; //交易花名册文件的默认文件名
 		
 	/**
 	 * 初始化各交易的配置信息到系统
@@ -108,6 +109,39 @@ public class TxnConfigManager {
 	}
 	public static String getTxnRosterFileName() {
 		return TxnRosterFileName;
+	}
+	
+	
+	/**
+	 * 根据交易代号, 获得交易超时时间, 默认60s, -1  表示交易不存在
+	 * @param TxnId
+	 * @return
+	 */
+	public static int getTxnTimeout(String TxnId) {
+		int timeOut = 60;
+		
+		Properties txnProperties = null;
+		try {
+			txnProperties = TxnConfigManager.getTxnConfig(TxnId);
+		} catch (Exception e) {
+			logger.info(TxnId + "查询配置文件出错,使用默认超时时间:" + timeOut );
+			return timeOut; 
+		}
+		if (txnProperties == null) {
+			logger.info(TxnId + "配置文件不存在, 请检查是否存在本交易" );
+			return -1 ;
+		}
+		
+		String strTimeOut = txnProperties.getProperty("TimeOut");
+		logger.debug(TxnId + "配置的超时时间为:" + strTimeOut);
+		if (strTimeOut != null && ! "".equals(strTimeOut)) {
+			timeOut = new Integer(strTimeOut);
+		}
+		if (timeOut < 0){
+			timeOut = 60;
+		}
+		logger.info(TxnId + "交易的超时时间为:" + timeOut );
+		return timeOut * 1000;
 	}
 	
 }

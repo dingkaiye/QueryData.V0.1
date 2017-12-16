@@ -2,7 +2,6 @@ package com.ods.manager;
 
 import java.io.IOException;
 import java.util.Hashtable;
-import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -11,7 +10,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
-import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import com.ods.common.Config;

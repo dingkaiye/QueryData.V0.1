@@ -9,32 +9,75 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 
 import com.ods.log.OdsLog;
+import com.ods.message.QueryResult;
 
+/**
+ * @author ding_kaiye
+ * 提供操作数据库的接口
+ */
 public class DbQuery {
 	private static Logger logger = OdsLog.getTxnLogger("DbQuery");
 	
+//	/**
+//	 * 匿名参数查询 , 仅使用SQL查询且不需要总记录数时使用
+//	 * @param sql
+//	 * @param params
+//	 * @return ArrayList
+//	 * @throws SQLException 
+//	 * 使用匿名参数查询数据库,若没有参数, params 赋值 null 
+//	 */
+//	public static QueryResult excuteQuery(String sql) throws SQLException {
+//		int TotleRows = -1;
+//		return  excuteQuery(sql, null, TotleRows);
+//	}
+	
+//	/**
+//	 * 使用匿名参数查询数据库,若没有参数, params 赋值  null 
+//	 * 不需要获取总记录数时, 可使用此查询, 屏蔽 TotleRows
+//	 * @param sql        SQL语句
+//	 * @param params     参数列表
+//	 * @param TotleRows  用于记录本次查询数据的总记录数
+//	 * @return ArrayList 本次查询数据的记录
+//	 * @throws SQLException
+//	 */
+//	
+//	public static QueryResult excuteQuery(String sql, Object[] params) throws SQLException  {
+//		int TotleRows = -1;
+//		return excuteQuery(sql, params, TotleRows);
+//	}
+	
+	
 	/**
-	 * 匿名参数查询 
+	 * 匿名参数查询 , 仅使用SQL查询需要总记录数时使用
 	 * @param sql
 	 * @param params
 	 * @return ArrayList
 	 * @throws SQLException 
 	 * 使用匿名参数查询数据库,若没有参数, params 赋值 null 
 	 */
-	public static ArrayList<DbDataLine> excuteQuery(String sql) throws SQLException {
+	public static QueryResult excuteQuery(String sql) throws SQLException {
 		return  excuteQuery(sql, null);
 	}
 	
-	public static ArrayList<DbDataLine> excuteQuery(String sql, Object[] params) throws SQLException  {
+	/**
+	 * 使用匿名参数查询数据库,若没有参数, params 赋值  null 
+	 * @param sql        SQL语句
+	 * @param params     参数列表
+	 * @param TotleRows  用于记录本次查询数据的总记录数
+	 * @return ArrayList 本次查询数据的记录
+	 * @throws SQLException
+	 */
+	public static QueryResult excuteQuery(String sql, Object[] params) throws SQLException  {
 		
 		ResultSet queryResult = null; 
 		PreparedStatement queryStatement = null;
 		Connection conn = null;
+		int totleRows = 0;
 		
 		logger.info("查询开始,SQL[" + sql + "] 入参[" + params + "] " );
 		
 		conn = DbPool.getConnection();		//获取数据库连接
-		queryStatement = conn.prepareStatement(sql);
+		queryStatement = conn.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 		
 		if (params != null) {
 			for (int i = 0; i < params.length; i++) {
@@ -44,13 +87,19 @@ public class DbQuery {
 		
 		ArrayList<DbDataLine> resultList = new ArrayList<DbDataLine>();
 		queryResult = queryStatement.executeQuery();
+		
+		queryResult.last();
+		totleRows = queryResult.getRow();
+		logger.debug(totleRows);
+		queryResult.beforeFirst();
+		
 		while (queryResult.next()) {
 			DbDataLine dbDataLine = new DbDataLine(queryResult);
 			resultList.add(dbDataLine);
 		}
 		closeConnection(queryResult, queryStatement, conn);
 		logger.info("查询完成,SQL[" + sql + "] 入参[" + params + "] " );
-		return resultList;
+		return new QueryResult(resultList, totleRows);
 	}
 
 
@@ -63,15 +112,17 @@ public class DbQuery {
 	 * @return
 	 * @throws Exception
 	 */
-	public static ArrayList<DbDataLine> excuteQuery(String sql, Object[] params, int startKey, int endKey ) throws Exception {
+	public static QueryResult excuteQuery(String sql, Object[] params, int startKey, int endKey) throws SQLException {
 //		public static ArrayList<DbDataLine> excuteQuery(String sql, Object[] params, long startKey, long endKey ) throws Exception {
-		logger.info("查询开始,SQL[" + sql + "] 入参[" + params + "] startKey[" + startKey + "]endKey[" + endKey + "]" );
+		logger.info("查询开始,SQL[" + sql + "] 入参[" + params.toString() + "] startKey[" + startKey + "]endKey[" + endKey + "]" );
 		ResultSet queryResult = null; 
 		PreparedStatement queryStatement = null;
 		Connection conn = null;
+		int totleRows = 0;
 		 
 		conn = DbPool.getConnection();		//获取数据库连接
-		queryStatement = conn.prepareStatement(sql);
+//		queryStatement = conn.prepareStatement(sql);
+		queryStatement = conn.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 		
 		if (params != null) {
 			for (int i = 0; i < params.length; i++) {
@@ -84,20 +135,18 @@ public class DbQuery {
 			queryResult = queryStatement.executeQuery();
 			
 			queryResult.last();
-			int TotleRows = queryResult.getRow();
+			totleRows = queryResult.getRow();
 			queryResult.beforeFirst();
 			
-			startKey = (startKey <= 0 ? 1 : startKey);
-			endKey = (endKey <= TotleRows ?  endKey : TotleRows);
+			startKey = (startKey  <= 0 ? 1 : startKey );
+			endKey = (endKey <= totleRows ?  endKey : totleRows);
 			
 			// 移动到 startKey 
-			queryResult.absolute(startKey-1);
-			// 一下暂不使用   
-			//for(long i=1; i<startKey; i++){
-			//   queryResult.next();
-			//}
+			if(startKey > 1){
+				queryResult.absolute(startKey -1 );
+			}
 			
-			while (queryResult.next() && (queryResult.getRow() < endKey) ) {
+			while (queryResult.next() && (queryResult.getRow() <= endKey) ) {
 				DbDataLine dbDataLine = new DbDataLine(queryResult);
 				resultList.add(dbDataLine);
 			}
@@ -108,7 +157,8 @@ public class DbQuery {
 			closeConnection(queryResult, queryStatement, conn);
 		}
 		logger.info("查询完成,SQL[" + sql + "] 入参[" + params + "] startKey[" + startKey + "]endKey[" + endKey + "]" );
-		return resultList;
+		
+		return new QueryResult(resultList, totleRows);
 	}
 
 	/**
@@ -121,12 +171,12 @@ public class DbQuery {
 	 * @throws Exception
 	 * 
 	 */
-	
-	public static ArrayList<ResultSet> excutePageQuery(String sql, Object[] params, long start, long end) throws Exception {
-		ArrayList<ResultSet> returnList = null;
-		return returnList ;
-	}
-	
+//	
+//	public static ArrayList<ResultSet> excutePageQuery(String sql, Object[] params, long start, long end) throws Exception {
+//		ArrayList<ResultSet> returnList = null;
+//		return returnList ;
+//	}
+//	
 	
 	/**
 	 * 关闭数据库连接

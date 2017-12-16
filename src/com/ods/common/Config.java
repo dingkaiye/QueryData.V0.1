@@ -4,9 +4,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Map;
 import java.util.Properties;
 
+/**
+ * 读取配置文件操作类
+ * @author ding_kaiye
+ */
 public class Config {
 	
 	

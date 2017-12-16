@@ -41,10 +41,10 @@ public class TxnCntContrl {
 		maxTxnCntCfg = SysConfig.getProperty(Constant.MaxTxnCnt); //读取配置
 //		TimeOut = SysConfig.getProperty(Constant.TimeOut); //读取配置
 		if (maxTxnCntCfg != null ){
-			MaxTxnCnt = new Integer( SysConfig.getProperty(Constant.MaxTxnCnt));
-			logger.error("读取系统配置成功, MaxTxnCnt当前设置为" + MaxTxnCnt );
+			MaxTxnCnt = new Integer( SysConfig.getProperty(Constant.MaxTxnCnt) );
+			logger.error("读取系统配置成功, 系统并发交易上限当前设置为:" + MaxTxnCnt );
 		}else {
-			logger.error("读取系统配置失败, MaxTxnCnt使用默认设置" + MaxTxnCnt );
+			logger.error("读取系统配置失败, 系统并发交易上限当前设置为使用默认设置:" + MaxTxnCnt );
 		}
 	}
 	
@@ -52,7 +52,7 @@ public class TxnCntContrl {
 	 * 登记交易增加
 	 * @throws TxnException 
 	 */
-	protected synchronized static void addCnt() throws TxnException{
+	public synchronized static void addCnt() throws TxnException{
 		if(sysTxnCnt + 1 > MaxTxnCnt) {  //接入次交易将大于系统上限, 不再累加, 返回false
 			logger.error("交易量超过系统上限:" + MaxTxnCnt);
 			throw new TxnException("交易量超过系统上限:" + MaxTxnCnt);
@@ -65,7 +65,7 @@ public class TxnCntContrl {
 	 * 登记交易减少
 	 * @throws TxnException 
 	 */
-	protected synchronized static void reduceCnt() throws TxnException{
+	public synchronized static void reduceCnt() throws TxnException{
 		if(sysTxnCnt - 1 < 0) {  // 系统中交易数量不可能小于 0 , 小于0, 则表明系统运行存在问题 
 			sysTxnCnt = 0;
 			logger.error("系统记录中登记交易数量小于0");
